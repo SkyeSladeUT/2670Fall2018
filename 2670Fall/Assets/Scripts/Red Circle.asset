@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e18f473b4eeba84794bc48a15d7fba0, type: 3}
+  m_Name: Red Circle
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1074643286054772, guid: ab5858cc4a758aa4cbb457616c693bc0, type: 2}
+  SpriteImage: {fileID: 21300002, guid: 3fa72597e59f30f4ab85758608e2ad10, type: 3}
+  SpriteColor: {r: 1, g: 0, b: 0, a: 1}
