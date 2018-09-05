@@ -8,20 +8,24 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BasicUI.cs" t="Include" />
+          <e p="CharacterController" t="Include">
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+          </e>
           <e p="EventListScripts" t="Include">
             <e p="DiableEvent.cs" t="Include" />
+            <e p="EventScript.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
+            <e p="NewEvent.cs" t="Include" />
             <e p="OnDestroyEvent.cs" t="Include" />
             <e p="OnTriggerEnterEvent.cs" t="Include" />
             <e p="updateEvent.cs" t="Include" />
           </e>
-          <e p="EventScript.cs" t="Include" />
-          <e p="NewEvent.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
         </e>
         <e p="Unneeded" t="Include">
           <e p="EndGame.cs" t="Include" />
-          <e p="FloatData.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="IfStatements.cs" t="Include" />
           <e p="KillPlayer.cs" t="Include" />
