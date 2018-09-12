@@ -8,11 +8,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6547faa2bb530da4f9394b263a37ad24, type: 3}
-  m_Name: SideScroller
+  m_Script: {fileID: 11500000, guid: 5b983366d648dc04889c56683598194e, type: 3}
+  m_Name: DoubleJump
   m_EditorClassIdentifier: 
   MoveX: {fileID: 11400000, guid: da39a50c347996345a2da032ad2076a1, type: 2}
-  MoveY: {fileID: 11400000, guid: f58b76b3a5e0d8d44a8e33aab4760729, type: 2}
+  MoveY: {fileID: 11400000, guid: ff2a47e68734be14d8aa369d31ebeab8, type: 2}
   MoveZ: {fileID: 11400000, guid: f58b76b3a5e0d8d44a8e33aab4760729, type: 2}
   Jump: {fileID: 11400000, guid: ff2a47e68734be14d8aa369d31ebeab8, type: 2}
   Gravity: {fileID: 11400000, guid: f0c44ecca0a5a1b4684306ab4a5210b2, type: 2}

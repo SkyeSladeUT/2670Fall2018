@@ -11,9 +11,12 @@
           <e p="CharacterController" t="Include">
             <e p="BoolInput.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
+            <e p="FloatBool.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternDuel.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
           </e>
           <e p="EventListScripts" t="Include">
             <e p="DiableEvent.cs" t="Include" />

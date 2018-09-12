@@ -19,12 +19,23 @@
       <file leaf-file-name="CharacterMovement.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController/CharacterMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="255">
               <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding>
                 <marker date="1536610346611" expanded="true" signature="113:470" ph="{...}" />
                 <marker date="1536610346611" expanded="true" signature="256:373" ph="{...}" />
                 <marker date="1536610346611" expanded="true" signature="401:468" ph="{...}" />
+=======
+            <state relative-caret-position="135">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <marker date="1536349621610" expanded="false" signature="6:44" ph="..." />
+                <marker date="1536349621610" expanded="true" signature="140:925" ph="{...}" />
+                <marker date="1536349621610" expanded="true" signature="410:480" ph="{...}" />
+                <marker date="1536349621610" expanded="true" signature="508:923" ph="{...}" />
+                <marker date="1536349621610" expanded="true" signature="547:798" ph="{...}" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
@@ -203,13 +214,21 @@
       <workItem from="1535570589517" duration="380000" />
       <workItem from="1535570982480" duration="2998000" />
       <workItem from="1536175046970" duration="4194000" />
+<<<<<<< HEAD
       <workItem from="1536347776394" duration="1786000" />
       <workItem from="1536606673032" duration="3656000" />
+=======
+      <workItem from="1536347776394" duration="1971000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="19718000" />
+=======
+    <option name="totallyTimeSpent" value="16247000" />
+>>>>>>> master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -221,8 +240,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="0" width="1223" height="1038" extended-state="1" />
     <editor active="true" />
+=======
+    <frame x="-6" y="0" width="978" height="830" extended-state="1" />
+>>>>>>> master
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32932073" />
@@ -297,6 +320,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
+<<<<<<< HEAD
             <marker date="1536178730383" expanded="true" signature="101:206" ph="{...}" />
             <marker date="1536178730383" expanded="true" signature="152:204" ph="{...}" />
           </folding>
@@ -320,6 +344,13 @@
             <marker date="1536610346611" expanded="true" signature="113:470" ph="{...}" />
             <marker date="1536610346611" expanded="true" signature="256:373" ph="{...}" />
             <marker date="1536610346611" expanded="true" signature="401:468" ph="{...}" />
+=======
+            <marker date="1536349621610" expanded="false" signature="6:44" ph="..." />
+            <marker date="1536349621610" expanded="true" signature="140:925" ph="{...}" />
+            <marker date="1536349621610" expanded="true" signature="410:480" ph="{...}" />
+            <marker date="1536349621610" expanded="true" signature="508:923" ph="{...}" />
+            <marker date="1536349621610" expanded="true" signature="547:798" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
@@ -500,12 +531,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController/CharacterMovement.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
             <marker date="1536610346611" expanded="true" signature="113:470" ph="{...}" />
             <marker date="1536610346611" expanded="true" signature="256:373" ph="{...}" />
             <marker date="1536610346611" expanded="true" signature="401:468" ph="{...}" />
+=======
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1536349621610" expanded="false" signature="6:44" ph="..." />
+            <marker date="1536349621610" expanded="true" signature="140:925" ph="{...}" />
+            <marker date="1536349621610" expanded="true" signature="410:480" ph="{...}" />
+            <marker date="1536349621610" expanded="true" signature="508:923" ph="{...}" />
+            <marker date="1536349621610" expanded="true" signature="547:798" ph="{...}" />
+>>>>>>> master
           </folding>
         </state>
       </provider>

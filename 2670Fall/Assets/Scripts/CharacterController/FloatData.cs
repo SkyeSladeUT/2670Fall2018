@@ -6,6 +6,5 @@ public class FloatData : ScriptableObject
 	public virtual float Value
 	{
 		get {return value;}
-		//set{Value = value;}
 	}
 }
