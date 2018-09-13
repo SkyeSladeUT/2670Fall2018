@@ -501,7 +501,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db40f876e22d7e4f92a999d9cb7ad69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   movePattern: {fileID: 11400000, guid: 9a9a2348407285f4eb655bbbf39979a7, type: 2}
+=======
+  movePattern: {fileID: 11400000, guid: fe9372a2e8d285b49a540025bc526873, type: 2}
+>>>>>>> Stashed changes
 --- !u!65 &1725781875
 BoxCollider:
   m_ObjectHideFlags: 0

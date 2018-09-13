@@ -15,8 +15,11 @@
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
+<<<<<<< Updated upstream
             <e p="MovePatternDuel.cs" t="Include" />
             <e p="MovePatternNotGrounded.cs" t="Include" />
+=======
+>>>>>>> Stashed changes
           </e>
           <e p="EventListScripts" t="Include">
             <e p="DiableEvent.cs" t="Include" />
