@@ -13,12 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveX: {fileID: 11400000, guid: da39a50c347996345a2da032ad2076a1, type: 2}
   MoveY: {fileID: 11400000, guid: f58b76b3a5e0d8d44a8e33aab4760729, type: 2}
-  MoveZ: {fileID: 11400000, guid: f58b76b3a5e0d8d44a8e33aab4760729, type: 2}
-<<<<<<< Updated upstream
+  MoveZ: {fileID: 11400000, guid: e896af2e5e545f249aa78aa519538bb2, type: 2}
   Jump: {fileID: 11400000, guid: ff2a47e68734be14d8aa369d31ebeab8, type: 2}
-=======
-  Jump: {fileID: 11400000, guid: 9da40cea7d62a734c8c06eaffb6bd2d0, type: 2}
->>>>>>> Stashed changes
   Gravity: {fileID: 11400000, guid: f0c44ecca0a5a1b4684306ab4a5210b2, type: 2}
   RotX: {fileID: 11400000, guid: f58b76b3a5e0d8d44a8e33aab4760729, type: 2}
   RotY: {fileID: 11400000, guid: f58b76b3a5e0d8d44a8e33aab4760729, type: 2}

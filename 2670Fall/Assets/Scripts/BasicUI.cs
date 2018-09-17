@@ -10,6 +10,7 @@ public class BasicUI : MonoBehaviour
 	private Transform current;
 	private int currentIndex;
 	public Transform[] DestList;
+	public Transform Player;
 
 	private void Start()
 	{
@@ -26,7 +27,12 @@ public class BasicUI : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (currentIndex == DestList.Length - 1)
+		if (other.CompareTag("Player"))
+		{
+			Agent.destination = Player.position;
+		}
+		
+		else if (currentIndex == DestList.Length - 1)
 		{
 			currentIndex = 0;
 			current = DestList[currentIndex];
@@ -35,6 +41,23 @@ public class BasicUI : MonoBehaviour
 		{
 			currentIndex++;
 			current = DestList[currentIndex];
+		}
+	}
+
+	private void OnTriggerExit(Collider other)
+	{
+		if (other.CompareTag("Player"))
+		{
+			if (currentIndex == DestList.Length - 1)
+			{
+				currentIndex = 0;
+				current = DestList[currentIndex];
+			}
+			else
+			{
+				currentIndex++;
+				current = DestList[currentIndex];
+			}
 		}
 	}
 }
