@@ -11,21 +11,26 @@ public class CharacterMovement : MonoBehaviour
     private MovePattern Current;
     private CharacterController controller;
     public Transform SpawnPoint;
-   // private int countdown = 3;
-    //public Text CountDownText;
+    private int countdown = 3;
+    public Text CountDownText;
+    public GameObject Bullet;
+    private Vector3 BulletPosition;
+    private Transform BulletTransform;
+
 
 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
         Current = Frozen;
-        //CountDownText.text = "";
-        //StartCoroutine("CountDown");
+        CountDownText.text = "";
+        StartCoroutine("CountDown");
     }
 
     private void Update() {
         Current.Invoke(controller, transform);
         
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -36,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    /*IEnumerator CountDown()
+    IEnumerator CountDown()
     {
         while (countdown >= 0)
         {
@@ -56,8 +61,8 @@ public class CharacterMovement : MonoBehaviour
 
             yield return new WaitForSeconds(1.0f);
         }
-    }*/
-     
+    }
+
 
 
 }
