@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5038f5ef72caa4db62ca171fba7281, type: 3}
-  m_Name: Gravity
+  m_Script: {fileID: 11500000, guid: b66aeea5dc543d74d90d95939dcffbf7, type: 3}
+  m_Name: Button 1
   m_EditorClassIdentifier: 
-  value: 20
+  CurrentButtonActive: 1

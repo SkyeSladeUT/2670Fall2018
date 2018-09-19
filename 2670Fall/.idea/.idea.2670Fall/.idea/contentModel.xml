@@ -6,18 +6,23 @@
       <e p="2670Fall.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ButtonScript.cs" t="Include" />
+        <e p="Key.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
           <e p="BasicUI.cs" t="Include" />
           <e p="CharacterController" t="Include">
-            <e p="BoolInput.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
-            <e p="FloatBool.cs" t="Include" />
-            <e p="FloatData.cs" t="Include" />
-            <e p="FloatInput.cs" t="Include" />
-            <e p="MovePattern.cs" t="Include" />
-            <e p="MovePatternDuel.cs" t="Include" />
-            <e p="MovePatternNotGrounded.cs" t="Include" />
+            <e p="Scriptable object" t="Include">
+              <e p="BoolInput.cs" t="Include" />
+              <e p="FloatBool.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="FloatInput.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="MovePatternDuel.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+              <e p="ScriptableObject Scripts.cs" t="Include" />
+            </e>
           </e>
           <e p="EventListScripts" t="Include">
             <e p="DiableEvent.cs" t="Include" />
@@ -28,7 +33,9 @@
             <e p="OnTriggerEnterEvent.cs" t="Include" />
             <e p="updateEvent.cs" t="Include" />
           </e>
+          <e p="ForEachLoop.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="RunCountDown.cs" t="Include" />
         </e>
         <e p="Unneeded" t="Include">
           <e p="EndGame.cs" t="Include" />

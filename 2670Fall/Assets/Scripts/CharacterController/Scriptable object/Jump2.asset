@@ -8,7 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5038f5ef72caa4db62ca171fba7281, type: 3}
-  m_Name: Zero
+  m_Script: {fileID: 11500000, guid: 8609e63204b51c048ae74dca96a99c6e, type: 3}
+  m_Name: Jump2
   m_EditorClassIdentifier: 
-  Value: 0
+  value: 20
+  InputType: Jump
