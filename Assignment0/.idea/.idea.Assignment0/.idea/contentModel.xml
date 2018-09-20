@@ -11,18 +11,19 @@
             <e p="BasicUI.cs" t="Include" />
           </e>
           <e p="ButtonScript.cs" t="Include" />
-          <e p="CharacterMovement" t="Include">
+          <e p="GameTimer.cs" t="Include" />
+          <e p="Key.cs" t="Include" />
+          <e p="Player" t="Include">
             <e p="BoolInput.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
+            <e p="Collector.cs" t="Include" />
             <e p="FloatBool.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
             <e p="FloatInput.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
             <e p="MovePatternNotGrounded.cs" t="Include" />
+            <e p="PLayer.cs" t="Include" />
           </e>
-          <e p="Collector.cs" t="Include" />
-          <e p="Key.cs" t="Include" />
-          <e p="PLayer.cs" t="Include" />
         </e>
       </e>
       <e p="Assignment0.sln" t="IncludeFlat" />

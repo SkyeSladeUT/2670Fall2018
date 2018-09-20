@@ -20,7 +20,7 @@ public class AIAgent : MonoBehaviour
 
 	private void Update()
 	{
-		//agent.destination = finalDestination.position;
+		agent.destination = finalDestination.position;
 	}
 
 	private void OnTriggerEnter(Collider obj)

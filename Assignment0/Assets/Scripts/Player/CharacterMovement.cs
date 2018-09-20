@@ -19,14 +19,20 @@ public class CharacterMovement : MonoBehaviour
 
     private void Start()
     {
+        player.GameOver = false;
         controller = GetComponent<CharacterController>();
-        Current = Frozen;
-        CountDownText.text = "";
-        StartCoroutine("CountDown");
+        Current = movePattern;
+        //CountDownText.text = "";
+        //StartCoroutine("CountDown");
     }
 
     private void Update() {
         Current.Invoke(controller, transform);
+        if (player.GameOver)
+        {
+            Current = Frozen;
+            CountDownText.text = "TIMES UP";
+        }
         
 
     }

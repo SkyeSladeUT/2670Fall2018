@@ -11,5 +11,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4635a756adf1b8143a1e7c9438d0f284, type: 3}
   m_Name: player1
   m_EditorClassIdentifier: 
-  Score: 10
+  Score: 120
   IsShieldActive: 0
+  GameOver: 1
