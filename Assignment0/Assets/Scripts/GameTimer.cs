@@ -6,13 +6,12 @@ using UnityEngine.UI;
 public class GameTimer : MonoBehaviour
 {
     public Text TimerText;
-    private int TimeLeft;
+    public int TimeLeft = 100;
     public PLayer player;
     
     private void Start()
     {
-        TimerText.text = "Time: 100";
-        TimeLeft = 50;
+        TimerText.text = "Time: " + TimeLeft.ToString();
         StartCoroutine("Timer");
     }
 

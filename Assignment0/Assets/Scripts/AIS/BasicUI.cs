@@ -11,7 +11,7 @@ public class BasicUI : MonoBehaviour
 	private int currentIndex;
 	public Transform[] DestList;
 
-	private void Awake()
+	private void Start()
 	{
 		Agent = GetComponent<NavMeshAgent>();
 		current = DestList[0];
@@ -21,7 +21,8 @@ public class BasicUI : MonoBehaviour
 
 	private void Update()
 	{
-		Agent.destination = current.position;
+		if(isActiveAndEnabled) 
+			Agent.destination = current.position;
 	}
 
 	private void OnTriggerEnter(Collider other)
