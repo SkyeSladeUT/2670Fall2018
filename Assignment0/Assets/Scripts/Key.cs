@@ -1,8 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Key : MonoBehaviour {
+/*note to self
+	make a Button or lever with animations
+	Add on/off animations to script
+	could be a possible asset to share (along with the button scriptable object)
+*/
 
 	public GameObject[] Enemy1;
 	public GameObject[] Enemy2;

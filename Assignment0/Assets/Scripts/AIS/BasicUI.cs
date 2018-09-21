@@ -5,7 +5,8 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class BasicUI : MonoBehaviour
 {
-
+	/*Possible asset after adding a follow player once the player gets close enough
+	 And bugs are worked out*/
 	public NavMeshAgent Agent;
 	private Transform current;
 	private int currentIndex;
