@@ -12,15 +12,14 @@ public class AIAgent : MonoBehaviour
 	
 	private void Start()
 	{
+		agent = GetComponent<NavMeshAgent>();
 		finalDestination = Postpoint;
 		agent.speed = speed.Value;
-		agent = GetComponent<NavMeshAgent>();
-
 	}
 
 	private void Update()
 	{
-		//agent.destination = finalDestination.position;
+		agent.destination = finalDestination.position;
 	}
 
 	private void OnTriggerEnter(Collider obj)

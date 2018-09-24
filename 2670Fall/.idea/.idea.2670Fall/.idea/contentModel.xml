@@ -24,6 +24,7 @@
               <e p="ScriptableObject Scripts.cs" t="Include" />
             </e>
           </e>
+          <e p="Drag.cs" t="Include" />
           <e p="EventListScripts" t="Include">
             <e p="DiableEvent.cs" t="Include" />
             <e p="EventScript.cs" t="Include" />

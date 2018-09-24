@@ -13,18 +13,18 @@ public class CharacterMovement : MonoBehaviour
     public Transform SpawnPoint;
     private int countdown = 3;
     public Text CountDownText;
-    public GameObject Bullet;
-    private Vector3 BulletPosition;
-    private Transform BulletTransform;
+    //public GameObject Bullet;
+   // private Vector3 BulletPosition;
+   // private Transform BulletTransform;
 
 
 
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        Current = Frozen;
+        Current = movePattern;
         CountDownText.text = "";
-        StartCoroutine("CountDown");
+        //StartCoroutine("CountDown");
     }
 
     private void Update() {
