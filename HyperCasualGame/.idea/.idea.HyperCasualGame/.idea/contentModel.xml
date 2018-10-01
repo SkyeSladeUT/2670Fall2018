@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\10802160\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_HyperCasualGame.-1180901144.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10802160\Documents\2670Fall2018\HyperCasualGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Romrell's Game" t="Include">
+          <e p="Romrell'sGame" t="Include">
+            <e p="Draggable.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="ObjectID.cs" t="Include" />
+            <e p="TriggerID.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="FishScripts" t="Include">
+            <e p="BoolInput.cs" t="Include" />
+            <e p="CollisionScript.cs" t="Include" />
+            <e p="FishMovement.cs" t="Include" />
+            <e p="FloatBool.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+          </e>
+          <e p="ObstacleScriptw" t="Include">
+            <e p="Rock.cs" t="Include" />
+            <e p="Shark.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="HyperCasualGame.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
