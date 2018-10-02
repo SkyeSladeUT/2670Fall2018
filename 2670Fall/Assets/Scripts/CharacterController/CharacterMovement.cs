@@ -7,12 +7,12 @@ public class CharacterMovement : MonoBehaviour
 {
 
     public MovePattern movePattern;
-    public MovePattern Frozen;
+    //public MovePattern Frozen;
     private MovePattern Current;
     private CharacterController controller;
     public Transform SpawnPoint;
-    private int countdown = 3;
-    public Text CountDownText;
+    //private int countdown = 3;
+    //public Text CountDownText;
     //public GameObject Bullet;
    // private Vector3 BulletPosition;
    // private Transform BulletTransform;
@@ -23,7 +23,7 @@ public class CharacterMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         Current = movePattern;
-        CountDownText.text = "";
+        //CountDownText.text = "";
         //StartCoroutine("CountDown");
     }
 
@@ -41,7 +41,7 @@ public class CharacterMovement : MonoBehaviour
         }
     }
 
-    IEnumerator CountDown()
+    /*IEnumerator CountDown()
     {
         while (countdown >= 0)
         {
@@ -61,7 +61,7 @@ public class CharacterMovement : MonoBehaviour
 
             yield return new WaitForSeconds(1.0f);
         }
-    }
+    }*/
 
 
 
