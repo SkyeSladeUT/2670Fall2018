@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: e00c42562c9b18d418b6b4f458521309
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: FerrisWheel:Seat
+    100004: FerrisWheel:Seat1
+    100006: FerrisWheel:Seat2
+    100008: FerrisWheel:Seat3
+    100010: FerrisWheel:Seat4
+    100012: FerrisWheel:Seat5
+    100014: FerrisWheel:Seat6
+    100016: FerrisWheel:Seat7
+    100018: joint10
+    100020: joint11
+    100022: joint12
+    100024: joint13
+    100026: joint14
+    100028: joint15
+    100030: joint16
+    100032: joint8
+    100034: joint9
+    100036: polySurface3
+    100038: polySurface7
+    400000: //RootNode
+    400002: FerrisWheel:Seat
+    400004: FerrisWheel:Seat1
+    400006: FerrisWheel:Seat2
+    400008: FerrisWheel:Seat3
+    400010: FerrisWheel:Seat4
+    400012: FerrisWheel:Seat5
+    400014: FerrisWheel:Seat6
+    400016: FerrisWheel:Seat7
+    400018: joint10
+    400020: joint11
+    400022: joint12
+    400024: joint13
+    400026: joint14
+    400028: joint15
+    400030: joint16
+    400032: joint8
+    400034: joint9
+    400036: polySurface3
+    400038: polySurface7
+    2100000: FerrisWheel_FerrisWheel
+    2300000: FerrisWheel:Seat
+    2300002: FerrisWheel:Seat1
+    2300004: FerrisWheel:Seat2
+    2300006: FerrisWheel:Seat3
+    2300008: FerrisWheel:Seat4
+    2300010: FerrisWheel:Seat5
+    2300012: FerrisWheel:Seat6
+    2300014: FerrisWheel:Seat7
+    2300016: polySurface3
+    2300018: polySurface7
+    3300000: FerrisWheel:Seat
+    3300002: FerrisWheel:Seat1
+    3300004: FerrisWheel:Seat2
+    3300006: FerrisWheel:Seat3
+    3300008: FerrisWheel:Seat4
+    3300010: FerrisWheel:Seat5
+    3300012: FerrisWheel:Seat6
+    3300014: FerrisWheel:Seat7
+    3300016: polySurface3
+    3300018: polySurface7
+    4300000: polySurface3
+    4300002: polySurface7
+    4300004: FerrisWheel:Seat1
+    4300006: FerrisWheel:Seat
+    4300008: FerrisWheel:Seat7
+    4300010: FerrisWheel:Seat6
+    4300012: FerrisWheel:Seat5
+    4300014: FerrisWheel:Seat4
+    4300016: FerrisWheel:Seat3
+    4300018: FerrisWheel:Seat2
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FerrisWheel_FerrisWheel
+    second: {fileID: 2100000, guid: d1602ebbf6e47a540982b7133b4b2fde, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
