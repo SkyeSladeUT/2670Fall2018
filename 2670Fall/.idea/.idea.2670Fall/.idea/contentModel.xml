@@ -6,6 +6,9 @@
       <e p="2670Fall.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="FairScene" t="Include">
+          <e p="Parenting.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
           <e p="BasicUI.cs" t="Include" />
