@@ -10,8 +10,16 @@
             <e p="Coloring" t="Include">
               <e p="ChangeColor.cs" t="Include" />
             </e>
+            <e p="Counter.cs" t="Include" />
+            <e p="DeleteOnTrigger.cs" t="Include" />
             <e p="Draggable.cs" t="Include" />
+            <e p="InfiniteCounter.cs" t="Include" />
+            <e p="InstanceObject.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
+            <e p="Movement" t="Include">
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="MovePatternNotGrounded.cs" t="Include" />
+            </e>
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
             <e p="Objects" t="Include">
@@ -22,13 +30,17 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="FishScripts" t="Include">
-            <e p="BoolInput.cs" t="Include" />
             <e p="CollisionScript.cs" t="Include" />
-            <e p="FishMovement.cs" t="Include" />
-            <e p="FloatBool.cs" t="Include" />
-            <e p="FloatData.cs" t="Include" />
-            <e p="FloatInput.cs" t="Include" />
-            <e p="MovePattern.cs" t="Include" />
+            <e p="IncreaseSpeed.cs" t="Include" />
+            <e p="MovementScripts" t="Include">
+              <e p="BoolInput.cs" t="Include" />
+              <e p="FishMovement.cs" t="Include" />
+              <e p="FloatBool.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="FloatInput.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+            </e>
+            <e p="Player.cs" t="Include" />
           </e>
           <e p="ObstacleScriptw" t="Include">
             <e p="Rock.cs" t="Include" />

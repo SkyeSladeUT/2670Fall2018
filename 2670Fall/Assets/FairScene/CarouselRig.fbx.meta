@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: dee24184fd43cf44aa3e784a31df5213
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Body
     100002: Body3
@@ -684,18 +684,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: CarouselBody
+    second: {fileID: 2100000, guid: d6b043652fc449f42be646132034bbc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Presents
     second: {fileID: 2100000, guid: 4f905156663ddce47a1732cb40d693a3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Railing
-    second: {fileID: 2100000, guid: 4ab59e62cfaeb18418c99bf3a7b7dab0, type: 2}
+    second: {fileID: 2100000, guid: 787a58a1b07df6a4d9c18310a2d5fa4a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Reindeer1
     second: {fileID: 2100000, guid: 28e55cc52c595354c978c21814af7254, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Roof1
+    second: {fileID: 2100000, guid: fa00a86cbfbf86a43aabd903a9c8f0af, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -751,8 +761,6 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0

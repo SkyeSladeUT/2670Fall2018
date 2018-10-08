@@ -13,6 +13,8 @@ public class FishMovement : MonoBehaviour {
 
 	private void Start()
 	{
+		movePattern.MoveX.value = 5;
+		Faster.MoveX.value = 20;
 		controller = GetComponent<CharacterController>();
 		Current = movePattern;
 	}
