@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class MouseDownEvent : MonoBehaviour
+public class OnMouseDownEvent : MonoBehaviour
 {
 
 	public UnityEvent Event;
