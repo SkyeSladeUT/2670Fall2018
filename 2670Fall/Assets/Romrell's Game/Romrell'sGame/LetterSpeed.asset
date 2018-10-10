@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd5038f5ef72caa4db62ca171fba7281, type: 3}
-  m_Name: 2
+  m_Name: LetterSpeed
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1.5

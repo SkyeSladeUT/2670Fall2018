@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46c5ff48b29e4624eb37dfccc7bb7344, type: 3}
   m_Name: ChangeCyan
   m_EditorClassIdentifier: 
-  SpriteColor: {fileID: 0}
+  SpriteColor: {fileID: 11400000, guid: 41a3b5a25c9d0bf4792f48903a43085c, type: 2}

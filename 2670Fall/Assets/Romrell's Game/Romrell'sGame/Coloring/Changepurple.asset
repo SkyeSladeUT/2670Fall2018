@@ -9,6 +9,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 46c5ff48b29e4624eb37dfccc7bb7344, type: 3}
-  m_Name: Red
+  m_Name: Changepurple
   m_EditorClassIdentifier: 
-  SpriteColor: {fileID: 0}
+  SpriteColor: {fileID: 11400000, guid: 225e3febdf002884d83f8a7932500833, type: 2}
