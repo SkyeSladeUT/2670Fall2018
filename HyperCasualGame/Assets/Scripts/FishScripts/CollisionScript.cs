@@ -5,16 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class CollisionScript : MonoBehaviour
 {
-
-	private Vector3 SpawnPoint;
-	void Start ()
+	private void OnTriggerEnter(Collider other)
 	{
-		SpawnPoint = gameObject.transform.position;
-	}
-
-	private void OnCollisionEnter(Collision other)
-	{
-		//gameObject.transform.position = SpawnPoint;
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		switch (other.tag)
+		{
+			case "obstacle":
+				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+				break;
+			default:
+				break;
+		}
 	}
 }

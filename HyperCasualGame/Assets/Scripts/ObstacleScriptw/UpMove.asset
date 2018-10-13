@@ -11,4 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bdd956c7728bc848b01f97a3575c61c, type: 3}
   m_Name: UpMove
   m_EditorClassIdentifier: 
-  value: 5
+  value: 15

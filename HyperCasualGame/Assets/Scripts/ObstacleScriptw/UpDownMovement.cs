@@ -7,6 +7,8 @@ public class UpDownMovement : MonoBehaviour
 
 	public FloatData UpSpeed;
 	public FloatData DownSpeed;
+	public float UpSeconds;
+	public float DownSeconds;
 	private bool Upwards;
 	private bool GameOver = false;
 
@@ -31,8 +33,16 @@ public class UpDownMovement : MonoBehaviour
     {
         while (!GameOver)
         {
-            yield return new WaitForSeconds(2);
-            if (Upwards)
+	        if (Upwards)
+	        {
+		        yield return new WaitForSeconds(UpSeconds);
+	        }
+	        else
+	        {
+		        yield return new WaitForSeconds(DownSeconds);
+	        }
+
+	        if (Upwards)
             {
                 Upwards = false;
             }

@@ -7,15 +7,30 @@ public class IncreaseSpeed : MonoBehaviour
 
 	public Player player;
 	public float seconds = 2.0f;
+	public FloatData TimeMin, TimeMax, Offset;
 	
 	IEnumerator Start()
 	{
 		while (player.isAlive)
 		{
 			yield return new WaitForSeconds(seconds);
-			GetComponent<FishMovement>().OriginalSpeed.value += 1;
-			GetComponent<FishMovement>().FasterSpeed.value += 1;
-			GetComponent<FishMovement>().SlowerSpeed.value += 1;
+			if (GetComponent<FishMovement>().OriginalSpeed.Value < 20)
+			{
+				GetComponent<FishMovement>().OriginalSpeed.value++;
+				GetComponent<FishMovement>().FasterSpeed.value++;
+				GetComponent<FishMovement>().SlowerSpeed.value++;
+				Offset.value++;
+			}
+
+			if (TimeMin.Value > .1f)
+			{
+				TimeMin.value -= .1f;
+			}
+
+			if (TimeMax.Value > .5f)
+			{
+				TimeMax.value -= .1f;
+			}
 		}
 	}
 }

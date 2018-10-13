@@ -11,10 +11,15 @@ public class FishMovement : MonoBehaviour {
 	private CharacterController controller;
 	private Vector3 NewPosition;
 	private bool CanMoveVertically;
+	private int VerticalLayer;
 
 	private void Start()
 	{
 		CanMoveVertically = true;
+		FasterSpeed.value = 25;
+		OriginalSpeed.value = 10;
+		SlowerSpeed.value = 5;
+		VerticalLayer = 0;
 		controller = GetComponent<CharacterController>();
 	}
 
@@ -38,18 +43,20 @@ public class FishMovement : MonoBehaviour {
 
 		if (CanMoveVertically)
 		{
-			if (Input.GetKeyDown(KeyCode.UpArrow))
+			if (Input.GetKeyDown(KeyCode.UpArrow) && VerticalLayer < 2)
 			{
 				NewPosition = transform.position;
 				NewPosition.y += 2;
 				CanMoveVertically = false;
+				VerticalLayer += 1;
 				StartCoroutine(VerticalMoveUp());
 			}
-			else if (Input.GetKeyDown(KeyCode.DownArrow))
+			else if (Input.GetKeyDown(KeyCode.DownArrow) && VerticalLayer > -2)
 			{
 				NewPosition = transform.position;
 				NewPosition.y -= 2;
 				CanMoveVertically = false;
+				VerticalLayer -= 1;
 				StartCoroutine(VerticalMoveDown());
 			}
 		}
