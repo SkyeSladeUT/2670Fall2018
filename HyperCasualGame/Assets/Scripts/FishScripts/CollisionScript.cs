@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CollisionScript : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class CollisionScript : MonoBehaviour
 
 	private void OnCollisionEnter(Collision other)
 	{
-		gameObject.transform.position = SpawnPoint;
+		//gameObject.transform.position = SpawnPoint;
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }

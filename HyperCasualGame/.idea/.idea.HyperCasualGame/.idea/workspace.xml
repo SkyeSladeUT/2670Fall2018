@@ -4,7 +4,18 @@
     <list default="true" id="51275f48-2907-4ceb-97bc-db9590ea5d87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/Fast.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/Fast.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/Slow.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/Slow.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/normal.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/normal.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,104 +26,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Counter.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Counter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfiniteCounter.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InfiniteCounter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <marker date="1539043538276" expanded="false" signature="6:104" ph="..." />
-                <marker date="1539043538276" expanded="true" signature="150:330" ph="{...}" />
-                <marker date="1539043538276" expanded="true" signature="233:328" ph="{...}" />
-                <marker date="1539043538276" expanded="true" signature="251:325" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstanceObject.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InstanceObject.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-              <folding>
-                <marker date="1539043538281" expanded="false" signature="6:78" ph="..." />
-                <marker date="1539043538281" expanded="true" signature="144:220" ph="{...}" />
-                <marker date="1539043538281" expanded="true" signature="185:216" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteOnTrigger.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/DeleteOnTrigger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncreaseSpeed.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FloatData.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FloatData.cs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="FishMovement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rock.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Rock.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="398">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
               <folding>
-                <marker date="1538435943334" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538435943334" expanded="true" signature="113:342" ph="{...}" />
-                <marker date="1538435943334" expanded="true" signature="164:234" ph="{...}" />
-                <marker date="1538435943334" expanded="true" signature="283:340" ph="{...}" />
+                <marker date="1539395346807" expanded="false" signature="6:100" ph="..." />
+                <marker date="1539395346807" expanded="true" signature="192:1893" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="420:506" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="531:1416" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="607:651" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="727:773" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="821:865" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="911:957" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="983:1366" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="1029:1170" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="1219:1362" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="1455:1651" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="1506:1619" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="1693:1891" ph="{...}" />
+                <marker date="1539395346807" expanded="true" signature="1744:1859" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/Player.cs">
+      <file leaf-file-name="CollisionScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <marker date="1539395100987" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539395100987" expanded="true" signature="159:425" ph="{...}" />
+                <marker date="1539395100987" expanded="true" signature="206:258" ph="{...}" />
+                <marker date="1539395100987" expanded="true" signature="307:423" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorData.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Objects/ColorData.cs">
+      <file leaf-file-name="IncreaseSpeed.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+              <folding>
+                <marker date="1539395346833" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539395346833" expanded="true" signature="122:457" ph="{...}" />
+                <marker date="1539395346833" expanded="true" signature="201:455" ph="{...}" />
+                <marker date="1539395346833" expanded="true" signature="229:452" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpDownMovement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/UpDownMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <marker date="1539216464902" expanded="true" signature="6:78" ph="..." />
+                <marker date="1539216464902" expanded="true" signature="123:790" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="252:303" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="319:496" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="337:410" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="411:493" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="517:786" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="549:780" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="632:693" ph="{...}" />
+                <marker date="1539216464902" expanded="true" signature="710:770" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovePattern.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/MovePattern.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <marker date="1539043538333" expanded="false" signature="6:47" ph="..." />
+                <marker date="1539043538333" expanded="true" signature="111:1379" ph="{...}" />
+                <marker date="1539043538333" expanded="true" signature="367:857" ph="{...}" />
+                <marker date="1539043538333" expanded="true" signature="408:457" ph="{...}" />
+                <marker date="1539043538333" expanded="true" signature="479:824" ph="{...}" />
+                <marker date="1539043538333" expanded="true" signature="914:1042" ph="{...}" />
+                <marker date="1539043538333" expanded="true" signature="1088:1375" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +127,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Counter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Counter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/UpDownMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Draggable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs" root0="FORCE_HIGHLIGHTING" />
@@ -134,7 +140,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Rock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Objects/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Coloring/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/MatchID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -147,7 +152,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Rock.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovePattern.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Romrell'sGame/NameID.cs" />
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Draggable.cs" />
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/ObjectID.cs" />
@@ -163,9 +167,10 @@
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/DeleteOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/OnMouseDown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs" />
       </list>
     </option>
   </component>
@@ -180,7 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -188,11 +192,17 @@
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="HyperCasualGame" type="483dac07:UnityExplorerNode$Root" />
             </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="HyperCasualGame" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -236,11 +246,17 @@
       <workItem from="1539026252498" duration="4408000" />
       <workItem from="1539195789989" duration="1238000" />
       <workItem from="1539216028130" duration="51000" />
+      <workItem from="1539390879988" duration="36000" />
+      <workItem from="1539390934368" duration="129000" />
+      <workItem from="1539391221667" duration="55000" />
+      <workItem from="1539391293020" duration="138000" />
+      <workItem from="1539391460078" duration="168000" />
+      <workItem from="1539391667781" duration="3781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15776000" />
+    <option name="totallyTimeSpent" value="20083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,18 +272,18 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.17378917" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28590605" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -288,38 +304,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Counter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InfiniteCounter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <marker date="1539043538276" expanded="false" signature="6:104" ph="..." />
-            <marker date="1539043538276" expanded="true" signature="150:330" ph="{...}" />
-            <marker date="1539043538276" expanded="true" signature="233:328" ph="{...}" />
-            <marker date="1539043538276" expanded="true" signature="251:325" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InstanceObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding>
-            <marker date="1539043538281" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539043538281" expanded="true" signature="144:220" ph="{...}" />
-            <marker date="1539043538281" expanded="true" signature="185:216" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/DeleteOnTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -358,13 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovePattern.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/FishMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
@@ -416,13 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovePattern.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/FishMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
@@ -449,22 +421,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rock.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovePattern.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Shark.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/FishMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Romrell'sGame/NameID.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/ObjectID.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -509,20 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Counter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/DeleteOnTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/CharacterMovement.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -531,46 +476,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/OnMouseDown.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Rock.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FloatData.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/DeleteOnTrigger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/OnMouseDown.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Rock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1538435943334" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538435943334" expanded="true" signature="113:342" ph="{...}" />
-            <marker date="1538435943334" expanded="true" signature="164:234" ph="{...}" />
-            <marker date="1538435943334" expanded="true" signature="283:340" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InfiniteCounter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <marker date="1539043538276" expanded="false" signature="6:104" ph="..." />
-            <marker date="1539043538276" expanded="true" signature="150:330" ph="{...}" />
-            <marker date="1539043538276" expanded="true" signature="233:328" ph="{...}" />
-            <marker date="1539043538276" expanded="true" signature="251:325" ph="{...}" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -578,10 +494,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InfiniteCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/Counter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/BoolInput.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/UpDownMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
           <folding>
-            <marker date="1539043538281" expanded="false" signature="6:78" ph="..." />
-            <marker date="1539043538281" expanded="true" signature="144:220" ph="{...}" />
-            <marker date="1539043538281" expanded="true" signature="185:216" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539216464902" expanded="true" signature="123:790" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="252:303" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="319:496" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="337:410" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="411:493" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="517:786" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="549:780" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="632:693" ph="{...}" />
+            <marker date="1539216464902" expanded="true" signature="710:770" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/MovePattern.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <marker date="1539043538333" expanded="false" signature="6:47" ph="..." />
+            <marker date="1539043538333" expanded="true" signature="111:1379" ph="{...}" />
+            <marker date="1539043538333" expanded="true" signature="367:857" ph="{...}" />
+            <marker date="1539043538333" expanded="true" signature="408:457" ph="{...}" />
+            <marker date="1539043538333" expanded="true" signature="479:824" ph="{...}" />
+            <marker date="1539043538333" expanded="true" signature="914:1042" ph="{...}" />
+            <marker date="1539043538333" expanded="true" signature="1088:1375" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <marker date="1539395100987" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539395100987" expanded="true" signature="159:425" ph="{...}" />
+            <marker date="1539395100987" expanded="true" signature="206:258" ph="{...}" />
+            <marker date="1539395100987" expanded="true" signature="307:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <marker date="1539395346807" expanded="false" signature="6:100" ph="..." />
+            <marker date="1539395346807" expanded="true" signature="192:1893" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="420:506" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="531:1416" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="607:651" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="727:773" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="821:865" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="911:957" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="983:1366" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="1029:1170" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="1219:1362" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="1455:1651" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="1506:1619" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="1693:1891" ph="{...}" />
+            <marker date="1539395346807" expanded="true" signature="1744:1859" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <marker date="1539395346833" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539395346833" expanded="true" signature="122:457" ph="{...}" />
+            <marker date="1539395346833" expanded="true" signature="201:455" ph="{...}" />
+            <marker date="1539395346833" expanded="true" signature="229:452" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -378,7 +378,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9000006, y: 0, z: -10.2}
+  m_LocalPosition: {x: -5.9000006, y: 0, z: -11.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -566,11 +566,11 @@ GameObject:
   - component: {fileID: 1107213418}
   - component: {fileID: 1107213417}
   - component: {fileID: 1107213415}
-  - component: {fileID: 1107213414}
   - component: {fileID: 1107213420}
   - component: {fileID: 1107213421}
   - component: {fileID: 1107213416}
   - component: {fileID: 1107213422}
+  - component: {fileID: 1107213414}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -590,7 +590,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movePattern: {fileID: 11400000, guid: c91e6f5b8101f2b4eb38b0bb9a448434, type: 2}
-  Faster: {fileID: 11400000, guid: 6eaedb521c24f104896e349cb70ea023, type: 2}
+  FasterSpeed: {fileID: 11400000, guid: 04b4964a8f85e4144ad5b20bb0364473, type: 2}
+  OriginalSpeed: {fileID: 11400000, guid: c97ac33b83798714b870755cd0b9bf47, type: 2}
+  SlowerSpeed: {fileID: 11400000, guid: b3ab7a54ca339854ca7ada1c5073e89c, type: 2}
+  Speed: {fileID: 11400000, guid: d4d6675cfcf32fd4e9f55a116f0351e4, type: 2}
 --- !u!143 &1107213415
 CharacterController:
   m_ObjectHideFlags: 0
@@ -681,7 +684,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107213413}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: acf70dfb96927fe4f820b12ec8a47282, type: 3}
   m_Name: 
@@ -692,7 +695,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1107213413}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b8b80993fe1b3544b6eb69c4370789c, type: 3}
   m_Name: 
@@ -1249,7 +1252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 4.709999, y: 0, z: -10.2}
+  m_FollowOffset: {x: 4.709999, y: 0, z: -11.54}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1351,7 +1354,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2086040926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.9000006, y: 0, z: -10.2}
+  m_LocalPosition: {x: -5.9000006, y: 0, z: -11.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1991543552}

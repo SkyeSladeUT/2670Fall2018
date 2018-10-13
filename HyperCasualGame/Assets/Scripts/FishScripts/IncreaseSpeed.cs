@@ -13,8 +13,9 @@ public class IncreaseSpeed : MonoBehaviour
 		while (player.isAlive)
 		{
 			yield return new WaitForSeconds(seconds);
-			GetComponent<FishMovement>().movePattern.MoveX.value += 1;
-			GetComponent<FishMovement>().Faster.MoveX.value += 1;
+			GetComponent<FishMovement>().OriginalSpeed.value += 1;
+			GetComponent<FishMovement>().FasterSpeed.value += 1;
+			GetComponent<FishMovement>().SlowerSpeed.value += 1;
 		}
 	}
 }
