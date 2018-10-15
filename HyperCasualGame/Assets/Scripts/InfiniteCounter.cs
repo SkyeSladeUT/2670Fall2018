@@ -13,8 +13,8 @@ public class InfiniteCounter : MonoBehaviour
 	{
 		while (true)
 		{
-			OnCount.Invoke();
 			yield return new WaitForSeconds(Seconds);
+			OnCount.Invoke();
 		}
 	}
 }
