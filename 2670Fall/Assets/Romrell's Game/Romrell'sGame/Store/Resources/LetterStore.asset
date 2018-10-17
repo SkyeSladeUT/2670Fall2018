@@ -13,3 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Available: {fileID: 11400000, guid: d18e2838b301a9b4c91a4115ff9bf721, type: 2}
   Purchased: {fileID: 11400000, guid: 8194c1ca998bbde45bf0e319a69f2921, type: 2}
+  Cash: {fileID: 0}

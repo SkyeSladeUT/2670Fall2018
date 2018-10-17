@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Name: Available
   m_EditorClassIdentifier: 
   ColorList:
-  - {fileID: 11400000, guid: 4d2e55a4d44ac8e4db6e2454828e5c33, type: 2}
-  - {fileID: 11400000, guid: 3d1f4b3eb4de10244babcfd1d44d8adc, type: 2}
-  - {fileID: 11400000, guid: e37096428ea705f4281700f5bb87cc78, type: 2}
-  - {fileID: 11400000, guid: 80db0b8b30e259f479cbd47668076008, type: 2}
   - {fileID: 11400000, guid: 10a89438a63fee447baa33192e25fd4a, type: 2}
   - {fileID: 11400000, guid: 0941506bc0b10cd4dbad343f00e97dee, type: 2}
   - {fileID: 11400000, guid: b970ab81a767ab94a969bf21a99e6cd4, type: 2}
+  - {fileID: 11400000, guid: 4d2e55a4d44ac8e4db6e2454828e5c33, type: 2}
+  - {fileID: 11400000, guid: e37096428ea705f4281700f5bb87cc78, type: 2}
+  - {fileID: 11400000, guid: 3d1f4b3eb4de10244babcfd1d44d8adc, type: 2}
+  - {fileID: 11400000, guid: 80db0b8b30e259f479cbd47668076008, type: 2}

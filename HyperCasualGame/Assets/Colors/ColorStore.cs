@@ -12,6 +12,7 @@ public class ColorStore : MonoBehaviour
 	public Colors colors;
 	public Colors Available;
 	public Colors Purchased;
+	public Player player;
 	private Renderer renderer;
 	private int CurrentIndex;
 
@@ -22,9 +23,9 @@ public class ColorStore : MonoBehaviour
 		CurrentIndex = 0;
 		BuyButton.SetActive(false);
 		EquipButton.SetActive(true);
-		if (colors.ColorList[0].Value != ActiveColor.Value)
+		if (colors.ColorList[0].Value == ActiveColor.Value)
 		{
-			EquipButton.SetActive(true);
+			EquipButton.SetActive(false);
 		}
 	}
 
@@ -36,16 +37,16 @@ public class ColorStore : MonoBehaviour
 			CurrentIndex = 0;
 		}
 		renderer.material.color = colors.ColorList[CurrentIndex].Value;
-		bool isBought = false;
+		/*bool isBought = false;
 		foreach (var color in Purchased.ColorList)
 		{
 			if (color == colors.ColorList[CurrentIndex])
 			{
 				isBought = true;
 			}
-		}
-		BuyButton.SetActive(!isBought);
-		EquipButton.SetActive(isBought);
+		}*/
+		BuyButton.SetActive(!colors.ColorList[CurrentIndex].isBought);
+		EquipButton.SetActive(colors.ColorList[CurrentIndex].isBought);
 		if (colors.ColorList[CurrentIndex].Value == ActiveColor.Value)
 		{
 			EquipButton.SetActive(false);
@@ -54,10 +55,17 @@ public class ColorStore : MonoBehaviour
 
 	public void BuyObject()
 	{
+		var color = colors.ColorList[CurrentIndex];
+		Bought(color);
+	}
+
+	private void Bought(ColorData color)
+	{
+		Purchased.ColorList.Add(color);
 		Available.ColorList.Remove(colors.ColorList[CurrentIndex]);
-		Purchased.ColorList.Add(colors.ColorList[CurrentIndex]);
 		BuyButton.SetActive(false);
 		EquipButton.SetActive(true);
+		colors.ColorList[CurrentIndex].isBought = true;
 	}
 
 	public void Equip()

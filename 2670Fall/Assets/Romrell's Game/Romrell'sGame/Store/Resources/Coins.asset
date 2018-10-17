@@ -8,8 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c5ac683e46a02149bbc096cf3dac058, type: 3}
-  m_Name: Purchased
+  m_Script: {fileID: 11500000, guid: 48ac4241243c6c347b8d39416cfcdb98, type: 3}
+  m_Name: Coins
   m_EditorClassIdentifier: 
-  ColorList:
-  - {fileID: 11400000, guid: dd385843ff4711149b5076865b4854ce, type: 2}
+  Value: 0

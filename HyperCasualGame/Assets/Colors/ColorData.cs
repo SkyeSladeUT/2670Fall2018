@@ -6,5 +6,7 @@ public class ColorData : ScriptableObject
 {
 
 	public Color Value = Color.cyan;
+	public bool isBought;
+	public int Cost;
 
 }

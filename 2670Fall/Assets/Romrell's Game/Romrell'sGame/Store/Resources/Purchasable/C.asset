@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c5ac683e46a02149bbc096cf3dac058, type: 3}
-  m_Name: Purchased
+  m_Script: {fileID: 11500000, guid: 9ff967346174f1a49b82f9e7c0e8d2b0, type: 3}
+  m_Name: C
   m_EditorClassIdentifier: 
-  ColorList:
-  - {fileID: 11400000, guid: dd385843ff4711149b5076865b4854ce, type: 2}
+  Value: 30
+  Item: {fileID: 11400000, guid: 4034081cd6f20f54d85503e93bf1997c, type: 2}
