@@ -10,7 +10,7 @@ public class CollisionScript : MonoBehaviour
 		switch (other.tag)
 		{
 			case "obstacle":
-				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+				SceneManager.LoadScene("EndGameScene");
 				break;
 			default:
 				break;

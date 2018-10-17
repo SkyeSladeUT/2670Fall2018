@@ -22,6 +22,8 @@ public class ObstacleGeneration : MonoBehaviour
 	{
 		while (true)
 		{
+			var RandomSeconds = Random.Range(TimeMin.Value, TimeMax.Value);
+			yield return new WaitForSeconds(RandomSeconds);
 			position = Player.transform.position;
 			position.y = 0;
 			var RandomNum = Random.Range(0, Obstacles.Count);
@@ -52,8 +54,6 @@ public class ObstacleGeneration : MonoBehaviour
 					break;
 			}
 			Instantiate(Obstacles[RandomNum], position, Obstacles[RandomNum].transform.rotation);
-			var RandomSeconds = Random.Range(TimeMin.Value, TimeMax.Value);
-			yield return new WaitForSeconds(RandomSeconds);
 		}
 	}
 }

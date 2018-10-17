@@ -15,8 +15,9 @@ public class FishMovement : MonoBehaviour {
 
 	private void Start()
 	{
+		movePattern.MoveX = OriginalSpeed;
 		CanMoveVertically = true;
-		FasterSpeed.value = 20;
+		FasterSpeed.value = 25;
 		OriginalSpeed.value = 10;
 		SlowerSpeed.value = 5;
 		VerticalLayer = 0;
