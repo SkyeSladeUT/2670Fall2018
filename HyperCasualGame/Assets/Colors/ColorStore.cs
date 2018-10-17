@@ -63,5 +63,6 @@ public class ColorStore : MonoBehaviour
 	public void Equip()
 	{
 		ActiveColor.Value = colors.ColorList[CurrentIndex].Value;
+		EquipButton.SetActive(false);
 	}
 }

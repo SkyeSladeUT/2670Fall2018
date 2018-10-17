@@ -14,7 +14,7 @@ public class IncreaseSpeed : MonoBehaviour
 		while (player.isAlive)
 		{
 			yield return new WaitForSeconds(seconds);
-			if (GetComponent<FishMovement>().OriginalSpeed.Value < 20)
+			if (GetComponent<FishMovement>().OriginalSpeed.Value < 25)
 			{
 				GetComponent<FishMovement>().OriginalSpeed.value++;
 				GetComponent<FishMovement>().FasterSpeed.value++;

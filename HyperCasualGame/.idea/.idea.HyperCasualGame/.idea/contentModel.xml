@@ -169,6 +169,15 @@
           </e>
           <e p="Player.cs" t="Include" />
         </e>
+        <e p="UnderwaterFantasy" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Done_BGScroller.cs" t="Include" />
+            <e p="Perspective2DSortMode.cs" t="Include" />
+          </e>
+          <e p="underwater-artwork" t="Include">
+            <e p="Scroll.cs" t="Include" />
+          </e>
+        </e>
       </e>
       <e p="HyperCasualGame.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
