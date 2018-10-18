@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - A
   - obstacle
+  - Coin
+  - Boost
   layers:
   - Default
   - TransparentFX

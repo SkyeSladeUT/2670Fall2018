@@ -12,7 +12,6 @@ public class ColorStore : MonoBehaviour
 	public Colors colors;
 	public Colors Available;
 	public Colors Purchased;
-	public Player player;
 	private Renderer renderer;
 	private int CurrentIndex;
 
@@ -37,14 +36,6 @@ public class ColorStore : MonoBehaviour
 			CurrentIndex = 0;
 		}
 		renderer.material.color = colors.ColorList[CurrentIndex].Value;
-		/*bool isBought = false;
-		foreach (var color in Purchased.ColorList)
-		{
-			if (color == colors.ColorList[CurrentIndex])
-			{
-				isBought = true;
-			}
-		}*/
 		BuyButton.SetActive(!colors.ColorList[CurrentIndex].isBought);
 		EquipButton.SetActive(colors.ColorList[CurrentIndex].isBought);
 		if (colors.ColorList[CurrentIndex].Value == ActiveColor.Value)

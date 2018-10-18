@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Permissions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,10 +8,20 @@ using UnityEngine.UI;
 public class EndScene : MonoBehaviour
 {
 	public Text ScoreText;
+	public Text CoinText;
+	public Text HighScore;
 	public Player player;
 
 	private void Start()
 	{
+		HighScore.text = "";
 		ScoreText.text = "Score: " + player.Score;
+		CoinText.text = "$" + player.Coins + " + $" + player.CoinsCollected;
+		player.Coins += player.CoinsCollected;
+		if (player.Score > player.HighScore)
+		{
+			player.HighScore = player.Score;
+			HighScore.text = "HIGHSCORE";
+		}
 	}
 }

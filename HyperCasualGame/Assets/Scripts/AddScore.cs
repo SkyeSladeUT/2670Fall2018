@@ -12,12 +12,12 @@ public class AddScore : MonoBehaviour
 	private void Start()
 	{
 		player.Score = 0;
-		playerScore.text = "Score: 0";
+		playerScore.text = player.Score.ToString();
 	}
 
 	public void IncreaseScore()
 	{
 		player.Score++;
-		playerScore.text = "Score: " + player.Score;
+		playerScore.text = player.Score.ToString();
 	}
 }

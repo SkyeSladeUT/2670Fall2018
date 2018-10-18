@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class IncreaseSpeed : MonoBehaviour
 {
-
-	public Player player;
 	public float seconds = 2.0f;
 	public FloatData TimeMin, TimeMax, Offset;
 	
 	IEnumerator Start()
 	{
-		while (player.isAlive)
+		while (true)
 		{
 			yield return new WaitForSeconds(seconds);
 			if (GetComponent<FishMovement>().OriginalSpeed.Value < 25)
