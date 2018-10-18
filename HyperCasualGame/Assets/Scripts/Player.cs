@@ -8,4 +8,5 @@ public class Player : ScriptableObject
     public int Coins;
     public int CoinsCollected;
     public int HighScore;
+    public bool isBoost;
 }

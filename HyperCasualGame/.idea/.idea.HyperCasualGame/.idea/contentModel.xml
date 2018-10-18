@@ -13,12 +13,6 @@
           <e p="Store.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="AddScore.cs" t="Include" />
-          <e p="CameraScript.cs" t="Include" />
-          <e p="ChangeColor.cs" t="Include" />
-          <e p="ChangeScenes.cs" t="Include" />
-          <e p="CharacterMovement.cs" t="Include" />
-          <e p="EndScene.cs" t="Include" />
           <e p="FishScripts" t="Include">
             <e p="CollisionScript.cs" t="Include" />
             <e p="IncreaseSpeed.cs" t="Include" />
@@ -31,8 +25,21 @@
               <e p="MovePattern.cs" t="Include" />
             </e>
           </e>
-          <e p="InfiniteCounter.cs" t="Include" />
+          <e p="gameScripts" t="Include">
+            <e p="AddScore.cs" t="Include" />
+            <e p="CameraScript.cs" t="Include" />
+            <e p="ChangeColor.cs" t="Include" />
+            <e p="CoinGeneration.cs" t="Include" />
+            <e p="InfiniteCounter.cs" t="Include" />
+            <e p="Scroll.cs" t="Include" />
+          </e>
+          <e p="Menus" t="Include">
+            <e p="ChangeScenes.cs" t="Include" />
+            <e p="EndScene.cs" t="Include" />
+            <e p="StartMenu.cs" t="Include" />
+          </e>
           <e p="ObstacleScriptw" t="Include">
+            <e p="CharacterMovement.cs" t="Include" />
             <e p="DestroyObject.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
@@ -43,8 +50,6 @@
             <e p="UpDownMovement.cs" t="Include" />
           </e>
           <e p="Player.cs" t="Include" />
-          <e p="Scroll.cs" t="Include" />
-          <e p="StartMenu.cs" t="Include" />
         </e>
       </e>
       <e p="HyperCasualGame.sln" t="IncludeFlat" />

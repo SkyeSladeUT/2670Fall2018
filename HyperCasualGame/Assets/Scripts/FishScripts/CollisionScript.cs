@@ -9,12 +9,11 @@ public class CollisionScript : MonoBehaviour
 	public Player player;
 	public MovePattern movePattern;
 	public Text TotalCoinText;
-	private bool isBoost;
 	private float temp;
 
 	private void Start()
 	{
-		isBoost = false;
+		player.isBoost = false;
 		
 		player.CoinsCollected = 0;
 		TotalCoinText.text = "$" + player.CoinsCollected;
@@ -25,7 +24,7 @@ public class CollisionScript : MonoBehaviour
 		switch (other.tag)
 		{
 			case "obstacle":
-				if(!isBoost)
+				if(!player.isBoost)
 					SceneManager.LoadScene("EndGameScene");
 				break;
 			case "Coin":
@@ -34,7 +33,9 @@ public class CollisionScript : MonoBehaviour
 				Destroy(other.gameObject);
 				break;
 			case "Boost":
-				isBoost = true;
+				player.isBoost = true;
+				player.CoinsCollected += 3;
+				player.Score += 5;
 				temp = movePattern.MoveX.Value;
 				Destroy(other.gameObject);
 				StartCoroutine(BoostTimer());
@@ -48,7 +49,7 @@ public class CollisionScript : MonoBehaviour
 	{
 		movePattern.MoveX.value = 100;
 		yield return new WaitForSeconds(3);
-		isBoost = false;
+		player.isBoost = false;
 		movePattern.MoveX.value = temp;
 	}
 }

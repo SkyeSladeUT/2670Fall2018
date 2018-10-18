@@ -11,5 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afb887bd28254ad4790609f0752612c8, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  isAlive: 1
   Score: 0
+  Coins: 0
+  CoinsCollected: 0
+  HighScore: 0
+  isBoost: 0
