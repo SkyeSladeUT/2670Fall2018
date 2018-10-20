@@ -36,6 +36,7 @@ public class CollisionScript : MonoBehaviour
 			case "Boost":
 				player.isBoost = true;
 				player.CoinsCollected += 3;
+				TotalCoinText.text = "$" + player.CoinsCollected;
 				temp = movePattern.MoveX.Value;
 				Destroy(other.gameObject);
 				StartCoroutine(BoostTimer());

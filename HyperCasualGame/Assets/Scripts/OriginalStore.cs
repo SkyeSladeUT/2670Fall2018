@@ -8,6 +8,7 @@ public class OriginalStore : MonoBehaviour
 
 	public FloatData BoostTime, BoostValue;
 	public Text CurrentBoostTime;
+	public Text BoostCost;
 	public GameObject BoostBuyButton;
 	public Player player;
 	public Text playerCash;
@@ -16,6 +17,7 @@ public class OriginalStore : MonoBehaviour
 	{
 		CurrentBoostTime.text = "Current Time: " + BoostTime.Value;
 		playerCash.text = "$" + player.Coins;
+		BoostCost.text = "$" + BoostValue.Value;
 	}
 
 	public void IncreaseTime()
@@ -23,10 +25,11 @@ public class OriginalStore : MonoBehaviour
 		if (player.Coins >= BoostValue.Value)
 		{
 			BoostTime.value++;
-			BoostValue.value += 50;
 			CurrentBoostTime.text = "Current Time: " + BoostTime.Value;
 			player.Coins -= (int) BoostValue.Value;
+			BoostValue.value += 50;
 			playerCash.text = "$" + player.Coins;
+			BoostCost.text = "$" + BoostValue.Value;
 		}
 		if (BoostTime.Value >= 10)
 		{

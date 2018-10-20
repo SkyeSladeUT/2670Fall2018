@@ -139,7 +139,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.33
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -384,8 +384,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.592829, y: 1.2909728, z: 1}
-  m_Center: {x: -0.063510805, y: 0.14548682, z: 0}
+  m_Size: {x: 1.7023252, y: 0.9941374, z: 1}
+  m_Center: {x: -0.09319442, y: -0.002930759, z: 0}
 --- !u!23 &1107213417
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -456,6 +456,7 @@ MonoBehaviour:
   player: {fileID: 11400000, guid: 487568041fb16a040aeeb936940ef2b9, type: 2}
   movePattern: {fileID: 11400000, guid: c91e6f5b8101f2b4eb38b0bb9a448434, type: 2}
   TotalCoinText: {fileID: 1932415366}
+  BoostTime: {fileID: 11400000, guid: 04d35d21980b7b64fb752ac78231116c, type: 2}
 --- !u!114 &1107213421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,7 +767,7 @@ MonoBehaviour:
   Player: {fileID: 1107213413}
   Obstacles:
   - {fileID: 1573353130391132, guid: 8afbc3a9171e8a14ebdf8273d4aa90c0, type: 2}
-  - {fileID: 1984673847705978, guid: 5c4a7b033ce0a1246b8105f56a2c566f, type: 2}
+  - {fileID: 1776995995328094, guid: 4d85e3abd858fb64b8c8c578a2d543d6, type: 2}
   - {fileID: 1776605307511586, guid: 1d08a52e46570af46bd54800bda9ebc7, type: 2}
   - {fileID: 1877230720677754, guid: 8670fef13dc2a9f458ceb57383326f9f, type: 2}
   - {fileID: 1556116050250368, guid: 09b480f7657e3834099f616e7aad5995, type: 2}

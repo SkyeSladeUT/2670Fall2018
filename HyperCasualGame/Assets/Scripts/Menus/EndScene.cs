@@ -10,6 +10,7 @@ public class EndScene : MonoBehaviour
 	public Text ScoreText;
 	public Text CoinText;
 	public Text HighScore;
+	public Text High;
 	public Player player;
 
 	private void Start()
@@ -23,5 +24,7 @@ public class EndScene : MonoBehaviour
 			player.HighScore = player.Score;
 			HighScore.text = "HIGHSCORE";
 		}
+
+		High.text = "High: " + player.HighScore;
 	}
 }

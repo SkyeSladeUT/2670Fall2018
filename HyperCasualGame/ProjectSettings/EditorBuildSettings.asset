@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/EndGameScene.unity
     guid: bd3c8716555e11b40b44c460f3e32ad2
   - enabled: 1
-    path: Assets/Scenes/Store.unity
+    path: Assets/Scenes/ColorStore.unity
     guid: 1fbdbdac4d963ac479f30e9cecacf48c
+  - enabled: 1
+    path: Assets/Scenes/Store.unity
+    guid: dd0fbc995accddf4db5a45fe5607e661
   m_configObjects: {}

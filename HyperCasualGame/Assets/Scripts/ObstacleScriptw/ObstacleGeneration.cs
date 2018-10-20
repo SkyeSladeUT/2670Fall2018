@@ -35,7 +35,7 @@ public class ObstacleGeneration : MonoBehaviour
 					break;
 				case "Jellyfish":
 					position.x += (Offset.Value + 7);
-					position.y -= 8;
+					position.y -= 12;
 					break;
 				case "Torpedo":
 					var RandomY = Random.Range(-4.5f, 4.5f);
