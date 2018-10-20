@@ -10,6 +10,7 @@ public class CollisionScript : MonoBehaviour
 	public MovePattern movePattern;
 	public Text TotalCoinText;
 	private float temp;
+	public FloatData BoostTime;
 
 	private void Start()
 	{
@@ -35,7 +36,6 @@ public class CollisionScript : MonoBehaviour
 			case "Boost":
 				player.isBoost = true;
 				player.CoinsCollected += 3;
-				player.Score += 5;
 				temp = movePattern.MoveX.Value;
 				Destroy(other.gameObject);
 				StartCoroutine(BoostTimer());
@@ -48,8 +48,9 @@ public class CollisionScript : MonoBehaviour
 	IEnumerator BoostTimer()
 	{
 		movePattern.MoveX.value = 100;
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(BoostTime.Value);
 		player.isBoost = false;
 		movePattern.MoveX.value = temp;
+		player.Score += (int) BoostTime.Value * 2;
 	}
 }
