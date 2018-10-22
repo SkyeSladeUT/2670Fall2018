@@ -194,6 +194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveColor: {fileID: 11400000, guid: 417269c5b6cb92a42bb714030d77e04d, type: 2}
+  speed: 1
+  seconds: 1
 --- !u!54 &644853358
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -766,11 +768,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 1107213413}
   Obstacles:
-  - {fileID: 1573353130391132, guid: 8afbc3a9171e8a14ebdf8273d4aa90c0, type: 2}
+  - {fileID: 1748267843331118, guid: 7bec910ed7278e143b969b67aeb59cb1, type: 2}
   - {fileID: 1776995995328094, guid: 4d85e3abd858fb64b8c8c578a2d543d6, type: 2}
-  - {fileID: 1776605307511586, guid: 1d08a52e46570af46bd54800bda9ebc7, type: 2}
-  - {fileID: 1877230720677754, guid: 8670fef13dc2a9f458ceb57383326f9f, type: 2}
-  - {fileID: 1556116050250368, guid: 09b480f7657e3834099f616e7aad5995, type: 2}
+  - {fileID: 1254967295552450, guid: e375d410cd5d19b4a95f052942c11d85, type: 2}
+  - {fileID: 1756437175014572, guid: 43b68fb1fffe0e441ba13816623505ff, type: 2}
+  - {fileID: 1783074597331058, guid: 570f63c65cc746645ae99af83cda24a0, type: 2}
   TimeMin: {fileID: 11400000, guid: 688163560dfdc5349ab7c4a7372ffdd9, type: 2}
   TimeMax: {fileID: 11400000, guid: 5baf61b628990224593a23f8b916e2f3, type: 2}
   Offset: {fileID: 11400000, guid: 9b32969f1b5f05c498ea6afcbc06b9d4, type: 2}

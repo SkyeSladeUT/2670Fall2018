@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72560fc9ae1740d4083f22b3b7cd1d16
+guid: 63c6ebf2a1cee12499fef984e17b7bb8
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -8,13 +8,8 @@ ModelImporter:
     2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: pCone1
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 2f4bf87e1a62a6b45a5db6278bdd0f9c, type: 2}
+    4300000: SwordFish
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

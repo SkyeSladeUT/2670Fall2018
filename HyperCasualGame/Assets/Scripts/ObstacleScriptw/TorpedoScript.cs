@@ -8,6 +8,6 @@ public class TorpedoScript : MonoBehaviour {
 
 	void Update()
 	{
-		transform.Translate(Vector3.up * Speed.Value * Time.deltaTime);
+		transform.Translate(Vector3.back * Speed.Value * Time.deltaTime);
 	}
 }
