@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Data/BoolInput")]
 public class BoolInput : FloatData
 {
     public string InputType;

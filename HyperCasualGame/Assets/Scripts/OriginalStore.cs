@@ -31,7 +31,7 @@ public class OriginalStore : MonoBehaviour
 			playerCash.text = "$" + player.Coins;
 			BoostCost.text = "$" + BoostValue.Value;
 		}
-		if (BoostTime.Value >= 10)
+		if (BoostTime.Value >= 20)
 		{
 			BoostBuyButton.SetActive(false);
 		}

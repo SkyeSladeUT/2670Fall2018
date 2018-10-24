@@ -194,8 +194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveColor: {fileID: 11400000, guid: 417269c5b6cb92a42bb714030d77e04d, type: 2}
-  speed: 1
   seconds: 1
+  rainbow: {fileID: 11400000, guid: ddf907d6775b59844a5c28b35318126d, type: 2}
 --- !u!54 &644853358
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -328,8 +328,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1107213419}
-  - component: {fileID: 1107213418}
-  - component: {fileID: 1107213417}
   - component: {fileID: 1107213415}
   - component: {fileID: 1107213420}
   - component: {fileID: 1107213421}
@@ -388,48 +386,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7023252, y: 0.9941374, z: 1}
   m_Center: {x: -0.09319442, y: -0.002930759, z: 0}
---- !u!23 &1107213417
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1107213413}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1107213418
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1107213413}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1107213419
 Transform:
   m_ObjectHideFlags: 0
@@ -456,8 +412,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 11400000, guid: 487568041fb16a040aeeb936940ef2b9, type: 2}
-  movePattern: {fileID: 11400000, guid: c91e6f5b8101f2b4eb38b0bb9a448434, type: 2}
+  playerObject: {fileID: 644853354}
   TotalCoinText: {fileID: 1932415366}
+  ActiveColor: {fileID: 11400000, guid: 417269c5b6cb92a42bb714030d77e04d, type: 2}
+  InvinsibleColor: {r: 0.93, g: 0.93, b: 0.93, a: 0}
   BoostTime: {fileID: 11400000, guid: 04d35d21980b7b64fb752ac78231116c, type: 2}
 --- !u!114 &1107213421
 MonoBehaviour:
@@ -504,6 +462,7 @@ GameObject:
   - component: {fileID: 1155619212}
   - component: {fileID: 1155619215}
   - component: {fileID: 1155619214}
+  - component: {fileID: 1155619216}
   - component: {fileID: 1155619211}
   - component: {fileID: 1155619210}
   m_Layer: 4
@@ -588,9 +547,9 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1155619209}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ec8334b410a2a24f8ccd8a20fb8695a, type: 3}
+  m_Script: {fileID: 11500000, guid: 66ca3fb0eeaaa86488713a06394998a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1107213413}
@@ -608,6 +567,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.15
+  player: {fileID: 11400000, guid: 487568041fb16a040aeeb936940ef2b9, type: 2}
+--- !u!114 &1155619216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1155619209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ec8334b410a2a24f8ccd8a20fb8695a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 1107213413}
+  Speed: 0.1
+  Offset: 5
 --- !u!1001 &1611785987
 Prefab:
   m_ObjectHideFlags: 0
@@ -813,7 +787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be513ccf4ad38614f9d216fd6d501e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seconds: 2
+  Seconds: 1
   OnCount:
     m_PersistentCalls:
       m_Calls:

@@ -44,11 +44,11 @@ public class ObstacleGeneration : MonoBehaviour
 					break;
 				case "Stalagmite":
 					position.y = Random.Range(-10f, -8.5f);
-					position.x += (Offset.Value + 15);
+					position.x += (Offset.Value + 20);
 					break;
 				case "Stalagtite":
 					position.y = Random.Range(8.5f, 10f);
-					position.x += (Offset.Value + 15);
+					position.x += (Offset.Value + 20);
 					break;
 				default:
 					break;

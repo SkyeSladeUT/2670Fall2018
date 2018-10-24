@@ -28,6 +28,7 @@
           </e>
           <e p="gameScripts" t="Include">
             <e p="AddScore.cs" t="Include" />
+            <e p="BackgroundMovement.cs" t="Include" />
             <e p="CameraScript.cs" t="Include" />
             <e p="ChangeColor.cs" t="Include" />
             <e p="CoinGeneration.cs" t="Include" />

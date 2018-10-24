@@ -1,7 +1,7 @@
 ﻿using JetBrains.Annotations;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "CharacterController/MovePattern/MovePattern")]
 public class MovePattern : ScriptableObject {
 
     public FloatData MoveX, MoveY, MoveZ, Jump, Gravity;

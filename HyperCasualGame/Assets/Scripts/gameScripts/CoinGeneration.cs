@@ -24,7 +24,7 @@ public class CoinGeneration : MonoBehaviour
 			randomY = Random.Range(-4.5f, 4.5f);
 			position.y = randomY;
 			randomNum = Random.Range(0, 99);
-			if (!player.isBoost)
+			if (!player.Invinsible)
 			{
 				if (randomNum <= 5)
 				{

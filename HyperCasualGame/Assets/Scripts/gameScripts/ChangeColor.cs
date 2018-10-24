@@ -6,7 +6,7 @@ public class ChangeColor : MonoBehaviour
 {
 
 	public ColorData ActiveColor;
-	public float seconds;
+	//public float seconds;
 	private Renderer renderer;
 	private int CurrentColor;
 	private float speed;

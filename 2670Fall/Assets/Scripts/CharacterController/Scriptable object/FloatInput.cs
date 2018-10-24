@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Data/FloatInput")]
 public class FloatInput : FloatData
 {
     public string InputType;

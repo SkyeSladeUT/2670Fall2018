@@ -8,6 +8,7 @@ public class FishMovement : MonoBehaviour {
 
 	public MovePattern movePattern;
 	public FloatData FasterSpeed, OriginalSpeed, SlowerSpeed, Speed;
+	//public Player player;
 	private CharacterController controller;
 	private Vector3 NewPosition;
 	private bool CanMoveVertically;
@@ -25,22 +26,25 @@ public class FishMovement : MonoBehaviour {
 	}
 
 	private void Update() {
-		if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetMouseButtonDown(0))
-		{
-			movePattern.MoveX = FasterSpeed;
-		}
-		else if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetMouseButtonUp(0))
-		{
-			movePattern.MoveX = OriginalSpeed;
-		}
-		else if (Input.GetKeyDown(KeyCode.LeftArrow))
-		{
-			movePattern.MoveX = SlowerSpeed;
-		}
-		else if (Input.GetKeyUp(KeyCode.LeftArrow))
-		{
-			movePattern.MoveX = OriginalSpeed;
-		}
+		//if (!player.isBoost)
+		//{
+			if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetMouseButtonDown(0))
+			{
+				movePattern.MoveX = FasterSpeed;
+			}
+			else if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetMouseButtonUp(0))
+			{
+				movePattern.MoveX = OriginalSpeed;
+			}
+			else if (Input.GetKeyDown(KeyCode.LeftArrow))
+			{
+				movePattern.MoveX = SlowerSpeed;
+			}
+			else if (Input.GetKeyUp(KeyCode.LeftArrow))
+			{
+				movePattern.MoveX = OriginalSpeed;
+			}
+		//}
 
 		if (CanMoveVertically)
 		{

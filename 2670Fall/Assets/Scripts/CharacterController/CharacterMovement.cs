@@ -8,9 +8,9 @@ public class CharacterMovement : MonoBehaviour
 
     public MovePattern movePattern;
     //public MovePattern Frozen;
-    private MovePattern Current;
+    //private MovePattern Current;
     private CharacterController controller;
-    public Transform SpawnPoint;
+    //public Transform SpawnPoint;
     //private int countdown = 3;
     //public Text CountDownText;
     //public GameObject Bullet;
@@ -22,24 +22,25 @@ public class CharacterMovement : MonoBehaviour
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        Current = movePattern;
+        //Current = movePattern;
         //CountDownText.text = "";
         //StartCoroutine("CountDown");
     }
 
     private void Update() {
-        Current.Invoke(controller, transform);
+        //Current.Invoke(controller, transform);
+        movePattern.Invoke(controller, transform);
         
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    /*private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Enemy"))
         {
             transform.position = SpawnPoint.position;
         }
-    }
+    }*/
 
     /*IEnumerator CountDown()
     {

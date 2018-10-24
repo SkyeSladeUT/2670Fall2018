@@ -1048,7 +1048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Boost
+  m_Text: Invincibility
 --- !u!222 &1507316210
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1400,6 +1400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveColor: {fileID: 11400000, guid: 417269c5b6cb92a42bb714030d77e04d, type: 2}
+  rainbow: {fileID: 11400000, guid: ddf907d6775b59844a5c28b35318126d, type: 2}
 --- !u!1 &1851899348
 GameObject:
   m_ObjectHideFlags: 0

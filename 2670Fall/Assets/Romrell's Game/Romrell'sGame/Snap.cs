@@ -5,26 +5,36 @@ using UnityEngine;
 
 public class Snap : MonoBehaviour
 {
-
-	private Vector3 position;
+	public FloatData HoldTime;
+	private Transform parent;
 	public FloatData Speed;
+	private bool CanRun = true;
 
 	private void OnTriggerEnter(Collider other)
 	{
-		position = other.transform.position;
+		parent = other.transform;
 	}
 
 	public void Call()
 	{
 		StartCoroutine(MoveTo());
+		StartCoroutine(Stop());
 	}
 
 	IEnumerator MoveTo()
 	{
-		while (true)
+		while (CanRun)
 		{
 			yield return new WaitForFixedUpdate();
-			transform.position = Vector3.Lerp(transform.position, position, Speed.Value);
+			transform.position = Vector3.Lerp(transform.position, parent.position, Speed.Value);
 		}
+
+		transform.parent = parent;
+	}
+
+	IEnumerator Stop()
+	{
+		yield return new WaitForSeconds(HoldTime.Value);
+		CanRun = false;
 	}
 }
