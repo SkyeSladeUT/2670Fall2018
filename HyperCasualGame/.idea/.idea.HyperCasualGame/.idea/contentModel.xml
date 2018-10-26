@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10802160\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_HyperCasualGame.-1180901144.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10802160\Documents\2670Fall2018\HyperCasualGame" t="IncludeRecursive">
+    <e p="C:\Users\Owner\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_HyperCasualGame.-718409146.00" t="ExcludeRecursive" />
+    <e p="E:\School\Fall2018\2670Fall2018\HyperCasualGame" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BoolData.cs" t="Include" />
-          <e p="Colors" t="Include">
-            <e p="ColorData.cs" t="Include" />
-            <e p="Colors.cs" t="Include" />
-            <e p="ColorStore.cs" t="Include" />
-            <e p="Objects.cs" t="Include" />
-            <e p="Store.cs" t="Include" />
-          </e>
           <e p="FishScripts" t="Include">
             <e p="CollisionScript.cs" t="Include" />
             <e p="IncreaseSpeed.cs" t="Include" />
@@ -52,8 +45,15 @@
             <e p="TorpedoScript.cs" t="Include" />
             <e p="UpDownMovement.cs" t="Include" />
           </e>
-          <e p="OriginalStore.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="Store" t="Include">
+            <e p="ColorData.cs" t="Include" />
+            <e p="Colors.cs" t="Include" />
+            <e p="ColorStore.cs" t="Include" />
+            <e p="Objects.cs" t="Include" />
+            <e p="OriginalStore.cs" t="Include" />
+            <e p="Store.cs" t="Include" />
+          </e>
         </e>
         <e p="Snap.cs" t="Include" />
       </e>

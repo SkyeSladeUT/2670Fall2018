@@ -8,9 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e535e52c48ebe449b8c30b3cbaa5a6, type: 3}
-  m_Name: Red
+  m_Script: {fileID: 11500000, guid: 2c5ac683e46a02149bbc096cf3dac058, type: 3}
+  m_Name: TestAvailable
   m_EditorClassIdentifier: 
-  Value: {r: 1, g: 0.063268036, b: 0, a: 1}
-  isBought: 0
-  Cost: 25
+  ColorList: []

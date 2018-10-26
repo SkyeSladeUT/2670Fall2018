@@ -13,4 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Value: {r: 1, g: 0.67256117, b: 0, a: 1}
   isBought: 0
-  Cost: 25
+  Cost: 100

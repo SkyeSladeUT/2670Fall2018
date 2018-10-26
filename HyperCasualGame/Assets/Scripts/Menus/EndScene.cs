@@ -19,6 +19,7 @@ public class EndScene : MonoBehaviour
 		ScoreText.text = "Score: " + player.Score;
 		CoinText.text = "$" + player.Coins + " + $" + player.CoinsCollected;
 		player.Coins += player.CoinsCollected;
+		player.DoubleCoins = false;
 		if (player.Score > player.HighScore)
 		{
 			player.HighScore = player.Score;

@@ -8,9 +8,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32e535e52c48ebe449b8c30b3cbaa5a6, type: 3}
-  m_Name: Purple
+  m_Script: {fileID: 11500000, guid: 2c5ac683e46a02149bbc096cf3dac058, type: 3}
+  m_Name: TestPurchased
   m_EditorClassIdentifier: 
-  Value: {r: 0.9731159, g: 0, b: 1, a: 1}
-  isBought: 0
-  Cost: 25
+  ColorList:
+  - {fileID: 11400000, guid: dd385843ff4711149b5076865b4854ce, type: 2}
+  - {fileID: 11400000, guid: 80db0b8b30e259f479cbd47668076008, type: 2}

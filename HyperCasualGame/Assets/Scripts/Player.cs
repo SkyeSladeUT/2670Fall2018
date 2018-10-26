@@ -10,4 +10,5 @@ public class Player : ScriptableObject
     public int HighScore;
     //public bool isBoost;
     public bool Invinsible;
+    public bool DoubleCoins;
 }

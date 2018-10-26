@@ -6,16 +6,16 @@ public class ChangeColor : MonoBehaviour
 {
 
 	public ColorData ActiveColor;
-	//public float seconds;
 	private Renderer renderer;
 	private int CurrentColor;
 	private float speed;
 	public BoolData rainbow;
-	
-	private void Start()
+
+	private void OnEnable()
 	{
 		renderer = GetComponent<Renderer>();
-		renderer.material.color = ActiveColor.Value;
+		if(!rainbow.value)
+			renderer.material.color = ActiveColor.Value;
 		CurrentColor = 0;
 		speed = 0;
 		if (rainbow.value)
@@ -24,7 +24,7 @@ public class ChangeColor : MonoBehaviour
 
 	public IEnumerator RainbowColor()
 	{
-		while (true)
+		while (rainbow.value)
 		{
 			if (CurrentColor == 0)
 			{

@@ -10,6 +10,8 @@ public class ColorStore : MonoBehaviour
 	public GameObject BuyButton;
 	public GameObject EquipButton;
 	public GameObject Fish;
+	public GameObject FishObject;
+	public GameObject RainbowFish;
 	public ColorData ActiveColor;
 	public Colors colors;
 	public Colors Available;
@@ -17,6 +19,9 @@ public class ColorStore : MonoBehaviour
 	public Text AvailableCash;
 	public Text Cost;
 	public Player player;
+	public BoolData isRainbow;
+	public BoolData RainbowBought;
+	public int RainbowCost;
 	private Renderer renderer;
 	private int CurrentIndex;
 
@@ -29,7 +34,7 @@ public class ColorStore : MonoBehaviour
 		EquipButton.SetActive(true);
 		Cost.text = "";
 		AvailableCash.text = "$" + player.Coins;
-		if (colors.ColorList[0].Value == ActiveColor.Value)
+		if (colors.ColorList[0].Value == ActiveColor.Value && !isRainbow.value)
 		{
 			EquipButton.SetActive(false);
 		}
@@ -38,11 +43,32 @@ public class ColorStore : MonoBehaviour
 	public void GoNext()
 	{
 		CurrentIndex++;
-		if (CurrentIndex > colors.ColorList.Count-1)
+		if (CurrentIndex == colors.ColorList.Count)
+		{
+			if (Available.ColorList.Count == 0)
+			{
+				FishObject.SetActive(false);
+				RainbowFish.SetActive(true);
+				BuyButton.SetActive(!RainbowBought.value);
+				EquipButton.SetActive(RainbowBought.value);
+				Cost.text = "$" + RainbowCost;
+				if (RainbowBought.value)
+					Cost.text = "";
+				if(isRainbow.value)
+					EquipButton.SetActive(false);
+				return;
+			}
+			else
+			{
+				CurrentIndex = 0;
+			}
+		}
+		else if (CurrentIndex == colors.ColorList.Count + 1)
 		{
 			CurrentIndex = 0;
+			FishObject.SetActive(true);
+			RainbowFish.SetActive(false);
 		}
-
 		Cost.text = "$" + colors.ColorList[CurrentIndex].Cost;
 		renderer.material.color = colors.ColorList[CurrentIndex].Value;
 		BuyButton.SetActive(!colors.ColorList[CurrentIndex].isBought);
@@ -51,7 +77,7 @@ public class ColorStore : MonoBehaviour
 		{
 			Cost.text = "";
 		}
-		if (colors.ColorList[CurrentIndex].Value == ActiveColor.Value)
+		if (colors.ColorList[CurrentIndex].Value == ActiveColor.Value && !isRainbow.value)
 		{
 			EquipButton.SetActive(false);
 		}
@@ -59,6 +85,13 @@ public class ColorStore : MonoBehaviour
 
 	public void BuyObject()
 	{
+		if (CurrentIndex == colors.ColorList.Count && player.Coins >= RainbowCost)
+		{
+			RainbowBought.value = true;
+			BuyButton.SetActive(false);
+			EquipButton.SetActive(true);
+			return;
+		}
 		var color = colors.ColorList[CurrentIndex];
 		Bought(color);
 	}
@@ -80,7 +113,15 @@ public class ColorStore : MonoBehaviour
 
 	public void Equip()
 	{
+		if (CurrentIndex == colors.ColorList.Count)
+		{
+			isRainbow.value = true;
+			EquipButton.SetActive(false);
+			ActiveColor.Value = Color.black;
+			return;
+		}
 		ActiveColor.Value = colors.ColorList[CurrentIndex].Value;
 		EquipButton.SetActive(false);
+		isRainbow.value = false;
 	}
 }

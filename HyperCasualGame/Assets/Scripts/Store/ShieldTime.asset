@@ -8,12 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb887bd28254ad4790609f0752612c8, type: 3}
-  m_Name: Player
+  m_Script: {fileID: 11500000, guid: 3bdd956c7728bc848b01f97a3575c61c, type: 3}
+  m_Name: ShieldTime
   m_EditorClassIdentifier: 
-  Score: 0
-  Coins: 0
-  CoinsCollected: 0
-  HighScore: 0
-  Invinsible: 0
-  DoubleCoins: 0
+  value: 3

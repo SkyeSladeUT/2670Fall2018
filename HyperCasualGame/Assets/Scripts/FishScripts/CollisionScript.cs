@@ -33,6 +33,8 @@ public class CollisionScript : MonoBehaviour
 				break;
 			case "Coin":
 				player.CoinsCollected++;
+				if (player.DoubleCoins)
+					player.CoinsCollected++;
 				TotalCoinText.text = "$" + player.CoinsCollected;
 				Destroy(other.gameObject);
 				break;
@@ -46,7 +48,6 @@ public class CollisionScript : MonoBehaviour
 				break;*/
 			case "Shield":
 				player.Invinsible = true;
-				player.CoinsCollected++;
 				Destroy(other.gameObject);
 				StartCoroutine(ShieldTimer());
 				break;
