@@ -194,7 +194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ActiveColor: {fileID: 11400000, guid: 417269c5b6cb92a42bb714030d77e04d, type: 2}
-  seconds: 1
   rainbow: {fileID: 11400000, guid: ddf907d6775b59844a5c28b35318126d, type: 2}
 --- !u!54 &644853358
 Rigidbody:
@@ -428,7 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b8b80993fe1b3544b6eb69c4370789c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 2
+  seconds: 5
   TimeMin: {fileID: 11400000, guid: 688163560dfdc5349ab7c4a7372ffdd9, type: 2}
   TimeMax: {fileID: 11400000, guid: 5baf61b628990224593a23f8b916e2f3, type: 2}
   Offset: {fileID: 11400000, guid: 9b32969f1b5f05c498ea6afcbc06b9d4, type: 2}

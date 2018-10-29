@@ -70,6 +70,7 @@ public class CollisionScript : MonoBehaviour
 		playerObject.GetComponent<Renderer>().material.color = InvinsibleColor;
 		yield return new WaitForSeconds(BoostTime.Value);
 		playerObject.GetComponent<Renderer>().material.color = ActiveColor.Value;
+		yield return new WaitForSeconds(.25f);
 		player.Invinsible = false;
 	}
 }

@@ -48,7 +48,7 @@ public class FishMovement : MonoBehaviour {
 
 		if (CanMoveVertically)
 		{
-			if (Input.GetKeyDown(KeyCode.UpArrow) && VerticalLayer < 2)
+			if (Input.GetKeyDown(KeyCode.UpArrow) && VerticalLayer < 3)
 			{
 				NewPosition = transform.position;
 				NewPosition.y += 2;
@@ -56,7 +56,7 @@ public class FishMovement : MonoBehaviour {
 				VerticalLayer += 1;
 				StartCoroutine(VerticalMoveUp());
 			}
-			else if (Input.GetKeyDown(KeyCode.DownArrow) && VerticalLayer > -2)
+			else if (Input.GetKeyDown(KeyCode.DownArrow) && VerticalLayer > -3)
 			{
 				NewPosition = transform.position;
 				NewPosition.y -= 2;
