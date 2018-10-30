@@ -28,11 +28,11 @@ public class FishMovement : MonoBehaviour {
 	private void Update() {
 		//if (!player.isBoost)
 		//{
-			if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetMouseButtonDown(0))
+			if (Input.GetKeyDown(KeyCode.RightArrow))
 			{
 				movePattern.MoveX = FasterSpeed;
 			}
-			else if (Input.GetKeyUp(KeyCode.RightArrow) || Input.GetMouseButtonUp(0))
+			else if (Input.GetKeyUp(KeyCode.RightArrow))
 			{
 				movePattern.MoveX = OriginalSpeed;
 			}
