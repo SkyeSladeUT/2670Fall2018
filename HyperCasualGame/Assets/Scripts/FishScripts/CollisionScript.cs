@@ -33,8 +33,10 @@ public class CollisionScript : MonoBehaviour
 				break;
 			case "Coin":
 				player.CoinsCollected++;
+				player.Score++;
 				if (player.DoubleCoins)
 					player.CoinsCollected++;
+				player.Score++;
 				TotalCoinText.text = "$" + player.CoinsCollected;
 				Destroy(other.gameObject);
 				break;
