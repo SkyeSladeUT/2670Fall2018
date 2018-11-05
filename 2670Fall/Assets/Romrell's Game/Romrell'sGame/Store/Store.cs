@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Store", menuName = "Store/StoreFront")]
 public class Store : ScriptableObject
 {
-    public Objects Available;
-    public Objects Purchased;
+    public PurchaseableObjects Available;
+    public PurchaseableObjects Purchased;
     public InData Cash;
     public int TotalValue = 300;
     
@@ -13,7 +13,7 @@ public class Store : ScriptableObject
     {
         for(int i = 0; i < Available.ObjectList.Count; i++)
         {
-            PurchasableObject availableObject = Available.ObjectList[i] as PurchasableObject;
+            PurchasableObject availableObject = Available.ObjectList[i];
             if (availableObject== obj && availableObject.Value <= Cash.Value)
             {
                 Purchased.ObjectList.Add(obj);

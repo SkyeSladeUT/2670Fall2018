@@ -6,4 +6,14 @@ public class PurchasableObject : ScriptableObject
 {
     public int Value;
     public Object Item;
+    public bool Perpetual;
+    public bool Instantiatable;
+
+    public void CreateItem()
+    {
+        if (Instantiatable && Item is GameObject)
+        {
+            Instantiate(Item);
+        }
+    }
 }

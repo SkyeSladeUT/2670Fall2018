@@ -8,7 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fcc8232f5a662ce4a81743e994aabc52, type: 3}
-  m_Name: Debug
+  m_Script: {fileID: 11500000, guid: 9ff967346174f1a49b82f9e7c0e8d2b0, type: 3}
+  m_Name: HexPowerUp
   m_EditorClassIdentifier: 
-  String: Power Up Used
+  Value: 10
+  Item: {fileID: 1031106085912072, guid: e4c1baf9d7a55d048b82639f50c9cafc, type: 2}
+  Perpetual: 0
+  Instantiatable: 1

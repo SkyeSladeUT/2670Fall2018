@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d12ac3346b75479a35e030a745c2f, type: 3}
+  m_Name: PowerUps
+  m_EditorClassIdentifier: 
+  Available: {fileID: 11400000, guid: da04e912bc98b9946b929262f64210b3, type: 2}
+  Purchased: {fileID: 11400000, guid: 6978dffc17df3a44dac0b5679a0e35a5, type: 2}
+  Cash: {fileID: 11400000, guid: 60d99c2577a610d47ac7cd8aee51d261, type: 2}
+  TotalValue: 300

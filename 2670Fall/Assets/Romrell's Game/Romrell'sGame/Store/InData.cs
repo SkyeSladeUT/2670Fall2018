@@ -6,4 +6,9 @@ public class InData : ScriptableObject
 {
 
 	public int Value;
+
+	public void addValue()
+	{
+		Value += 1;
+	}
 }
