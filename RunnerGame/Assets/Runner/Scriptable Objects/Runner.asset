@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6547faa2bb530da4f9394b263a37ad24, type: 3}
+  m_Name: Runner
+  m_EditorClassIdentifier: 
+  MoveX: {fileID: 11400000, guid: d3527038903fff544909b520c48814f5, type: 2}
+  MoveY: {fileID: 11400000, guid: d3527038903fff544909b520c48814f5, type: 2}
+  MoveZ: {fileID: 11400000, guid: 0f5bc986a099bfa46996faf66d0328d7, type: 2}
+  Jump: {fileID: 11400000, guid: ce0e981b325b23b4e95bd1d4d1773da9, type: 2}
+  Gravity: {fileID: 11400000, guid: 33634e5cc1d824e45b8d60d602186bce, type: 2}
+  RotX: {fileID: 11400000, guid: d3527038903fff544909b520c48814f5, type: 2}
+  RotY: {fileID: 11400000, guid: d3527038903fff544909b520c48814f5, type: 2}
+  RotZ: {fileID: 11400000, guid: d3527038903fff544909b520c48814f5, type: 2}

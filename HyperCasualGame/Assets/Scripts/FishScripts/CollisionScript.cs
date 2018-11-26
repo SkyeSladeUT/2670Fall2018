@@ -8,7 +8,6 @@ public class CollisionScript : MonoBehaviour
 {
 	public Player player;
 	public GameObject playerObject;
-	//public MovePattern movePattern;
 	public Text TotalCoinText;
 	public ColorData ActiveColor;
 	public Color InvinsibleColor;
@@ -17,7 +16,6 @@ public class CollisionScript : MonoBehaviour
 
 	private void Start()
 	{
-		//player.isBoost = false;
 		player.Invinsible = false;
 		player.CoinsCollected = 0;
 		TotalCoinText.text = "$" + player.CoinsCollected;
@@ -36,36 +34,16 @@ public class CollisionScript : MonoBehaviour
 				player.Score++;
 				if (player.DoubleCoins)
 					player.CoinsCollected++;
-				player.Score++;
 				TotalCoinText.text = "$" + player.CoinsCollected;
-				Destroy(other.gameObject);
 				break;
-			/*case "Boost":
-				player.isBoost = true;
-				player.CoinsCollected++;
-				TotalCoinText.text = "$" + player.CoinsCollected;
-				temp = movePattern.MoveX.Value;
-				Destroy(other.gameObject);
-				StartCoroutine(BoostTimer());
-				break;*/
 			case "Shield":
 				player.Invinsible = true;
-				Destroy(other.gameObject);
 				StartCoroutine(ShieldTimer());
 				break;
 			default:
 				break;
 		}
 	}
-
-	/*IEnumerator BoostTimer()
-	{
-		movePattern.MoveX.value = 100;
-		yield return new WaitForSeconds(BoostTime.Value);
-		player.isBoost = false;
-		movePattern.MoveX.value = temp;
-		player.Score += (int) BoostTime.Value * 2;
-	}*/
 
 	IEnumerator ShieldTimer()
 	{

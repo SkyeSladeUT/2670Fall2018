@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="51275f48-2907-4ceb-97bc-db9590ea5d87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HyperCasualGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Boost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Boost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ColorStore.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ColorStore.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EndGameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EndGameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Store.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,17 +35,29 @@
       <file leaf-file-name="CollisionScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding>
-                <marker date="1541017351895" expanded="false" signature="6:135" ph="..." />
-                <marker date="1541017351895" expanded="true" signature="181:1930" ph="{...}" />
-                <marker date="1541017351895" expanded="true" signature="437:581" ph="{...}" />
-                <marker date="1541017351895" expanded="true" signature="627:1395" ph="{...}" />
-                <marker date="1541017351895" expanded="true" signature="651:1392" ph="{...}" />
-                <marker date="1541017351895" expanded="true" signature="1001:1240" ph="/* case &quot;Boost&quot;: ... */" />
-                <marker date="1541017351895" expanded="true" signature="1398:1622" ph="/* IEnumerator BoostTimer() ... */" />
-                <marker date="1541017351895" expanded="true" signature="1650:1928" ph="{...}" />
+                <marker date="1543266293400" expanded="false" signature="6:135" ph="..." />
+                <marker date="1543266293400" expanded="true" signature="181:1315" ph="{...}" />
+                <marker date="1543266293400" expanded="true" signature="402:518" ph="{...}" />
+                <marker date="1543266293400" expanded="true" signature="564:1007" ph="{...}" />
+                <marker date="1543266293400" expanded="true" signature="588:1004" ph="{...}" />
+                <marker date="1543266293400" expanded="true" signature="1035:1313" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnTriggerEvent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/OnTriggerEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1543266123137" expanded="true" signature="6:104" ph="..." />
+                <marker date="1543266123137" expanded="true" signature="149:248" ph="{...}" />
+                <marker date="1543266123137" expanded="true" signature="222:246" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,11 +72,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraScript.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/CameraScript.cs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -83,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/MovePattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menus/EndScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../2670Fall/Assets/Scripts/EventListScripts/OnTriggerEnterEvent.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/DestroyObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/BackgroundMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -96,6 +95,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleScriptw/Rock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/IncreaseSpeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/OnTriggerEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/InfiniteCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/InstanceObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/DeleteOnTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/Player.cs" />
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/gameScripts/MuteButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/gameScripts/DontDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/MovementScripts/FishMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/gameScripts/OnTriggerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs" />
       </list>
     </option>
@@ -167,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -184,7 +185,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -263,11 +263,12 @@
       <workItem from="1540935392788" duration="253000" />
       <workItem from="1540936434578" duration="1874000" />
       <workItem from="1541017302482" duration="645000" />
+      <workItem from="1543265960298" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87013000" />
+    <option name="totallyTimeSpent" value="87941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,7 +289,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12480974" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1263318" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -321,9 +322,6 @@
           <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/CameraScript.cs">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/Player.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Romrell's Game/Romrell'sGame/OnMouseDown.cs" />
@@ -422,9 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/CameraScript.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/Music.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/MuteButton.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/DontDestroy.cs" />
@@ -435,19 +430,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../2670Fall/Assets/Scripts/EventListScripts/OnTriggerEnterEvent.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/gameScripts/OnTriggerEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1543266123137" expanded="true" signature="6:104" ph="..." />
+            <marker date="1543266123137" expanded="true" signature="149:248" ph="{...}" />
+            <marker date="1543266123137" expanded="true" signature="222:246" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/FishScripts/CollisionScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding>
-            <marker date="1541017351895" expanded="false" signature="6:135" ph="..." />
-            <marker date="1541017351895" expanded="true" signature="181:1930" ph="{...}" />
-            <marker date="1541017351895" expanded="true" signature="437:581" ph="{...}" />
-            <marker date="1541017351895" expanded="true" signature="627:1395" ph="{...}" />
-            <marker date="1541017351895" expanded="true" signature="651:1392" ph="{...}" />
-            <marker date="1541017351895" expanded="true" signature="1001:1240" ph="/* case &quot;Boost&quot;: ... */" />
-            <marker date="1541017351895" expanded="true" signature="1398:1622" ph="/* IEnumerator BoostTimer() ... */" />
-            <marker date="1541017351895" expanded="true" signature="1650:1928" ph="{...}" />
+            <marker date="1543266293400" expanded="false" signature="6:135" ph="..." />
+            <marker date="1543266293400" expanded="true" signature="181:1315" ph="{...}" />
+            <marker date="1543266293400" expanded="true" signature="402:518" ph="{...}" />
+            <marker date="1543266293400" expanded="true" signature="564:1007" ph="{...}" />
+            <marker date="1543266293400" expanded="true" signature="588:1004" ph="{...}" />
+            <marker date="1543266293400" expanded="true" signature="1035:1313" ph="{...}" />
           </folding>
         </state>
       </provider>
