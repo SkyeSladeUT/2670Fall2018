@@ -15,7 +15,6 @@ public class CollisionScript : MonoBehaviour
 				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 				break;
 			case "Coin":
-				Destroy(other.gameObject);
 				player.CollectedCoins++;
 				break;
 			default:

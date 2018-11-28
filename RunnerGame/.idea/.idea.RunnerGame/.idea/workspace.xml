@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0fac43da-4944-4de4-85ae-0d372ce99e45" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Runner.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/PLayer.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/PLayer.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/PLayer.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/PLayer.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/Penguin.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/Penguin.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/Penguin.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/Penguin.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/Penguin.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/Penguin.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/SlideDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/SlideDown.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Animation/SlideDown.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Animation/SlideDown.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Ground.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Ground.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Obstacles.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Obstacles.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Obstacles.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Obstacles.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/PenguinSlideFixed.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/PenguinSlideFixed.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Coin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Coin.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Coin.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/Icebergtext.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/Icebergtext.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/LargeHole.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/LargeHole.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/LongBar.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/LongBar.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/LongRock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/LongRock.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/MediumBar.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/MediumBar.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/MediumHole.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/MediumHole.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/MediumRock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/MediumRock.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/ShortBar.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/ShortBar.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/ShortRock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/ShortRock.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/SmallHole.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/SmallHole.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/Wall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Models/Wall.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LargeHole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LargeHole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LargeHole.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LargeHole.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongBar.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongBar.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongRock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongRock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongRock.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/LongRock.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumBar.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumBar.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumHole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumHole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumHole.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumHole.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumRock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumRock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumRock.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/MediumRock.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBar.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBar.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBar.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBarEnclosed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBarEnclosed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBarEnclosed.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortBarEnclosed.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRock.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRock.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRockEnclosed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRockEnclosed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRockEnclosed.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/ShortRockEnclosed.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHole.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHole.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHole.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHole.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHoleEnclosed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHoleEnclosed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHoleEnclosed.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/SmallHoleEnclosed.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/Wall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/Wall.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Prefabs/Obstacles/Wall.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner.mat.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner/LightingData.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner/LightingData.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Runner/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CameraScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CameraScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/DestroyObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/DestroyObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/IncreaseSpeed.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/IncreaseSpeed.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/InfiniteCounter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/InfiniteCounter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/NameID.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/NameID.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/ObjectID.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/ObjectID.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/ObstacleGeneration.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/ObstacleGeneration.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/Runner.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/Runner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/Timer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/Timer.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Constant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Constant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Constant.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Constant.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/FullBar.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/FullBar.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/FullBar.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/FullBar.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Gravity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Gravity.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Gravity.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Gravity.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Jump.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Jump.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Jump.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Jump.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongHole.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongHole.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongHole.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongHole.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongRock.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongRock.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongRock.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/LongRock.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumBar.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumBar.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumBar.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumBar.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumHole.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumHole.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumHole.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumHole.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumRock.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumRock.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumRock.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/MediumRock.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Offset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Offset.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Offset.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Offset.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/PlatformMove.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/PlatformMove.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/PlatformMove.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/PlatformMove.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Player.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Player.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Player.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Runner.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Runner.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Runner.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Runner.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBar.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBar.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBar.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBar.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBarEnclosed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBarEnclosed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBarEnclosed.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallBarEnclosed.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHole.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHole.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHole.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHole.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHoleEnclosed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHoleEnclosed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHoleEnclosed.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallHoleEnclosed.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRock.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRock.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRock.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRock.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRockEnclosed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRockEnclosed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRockEnclosed.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/SmallRockEnclosed.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMax.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMax.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMax.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMax.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMin.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMin.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMin.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/TimeMin.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Zero.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Zero.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Zero.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/Scriptable Objects/Zero.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CharacterMovement.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+              <folding>
+                <marker date="1543365017130" expanded="false" signature="6:66" ph="..." />
+                <marker date="1543365017130" expanded="true" signature="162:1883" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="372:543" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="571:1331" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="605:1264" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="692:933" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="1015:1254" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="1368:1606" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="1428:1565" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="1643:1880" ph="{...}" />
+                <marker date="1543365017130" expanded="true" signature="1703:1839" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollisionScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <marker date="1543365458820" expanded="false" signature="6:135" ph="..." />
+                <marker date="1543365458820" expanded="true" signature="181:462" ph="{...}" />
+                <marker date="1543365458820" expanded="true" signature="251:460" ph="{...}" />
+                <marker date="1543365458820" expanded="true" signature="275:457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoinGeneration.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+              <folding>
+                <marker date="1543365593387" expanded="false" signature="6:78" ph="..." />
+                <marker date="1543365593387" expanded="true" signature="123:916" ph="{...}" />
+                <marker date="1543365593387" expanded="true" signature="360:914" ph="{...}" />
+                <marker date="1543365593387" expanded="true" signature="390:911" ph="{...}" />
+                <marker date="1543365593387" expanded="true" signature="631:826" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeCounter.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/TimeCounter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <marker date="1543366418342" expanded="true" signature="6:114" ph="..." />
+                <marker date="1543366418342" expanded="true" signature="156:538" ph="{...}" />
+                <marker date="1543366418342" expanded="true" signature="235:317" ph="{...}" />
+                <marker date="1543366418342" expanded="true" signature="341:536" ph="{...}" />
+                <marker date="1543366418342" expanded="true" signature="359:533" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/TimeCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Runner/SCripts/TimeCounter.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1283" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RunnerGame" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fac43da-4944-4de4-85ae-0d372ce99e45" name="Default" comment="" />
+      <created>1543364864739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543364864739</updated>
+      <workItem from="1543364866069" duration="19000" />
+      <workItem from="1543364957648" duration="1564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1583000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1026" height="831" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25465837" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <marker date="1543365017130" expanded="false" signature="6:66" ph="..." />
+            <marker date="1543365017130" expanded="true" signature="162:1883" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="372:543" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="571:1331" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="605:1264" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="692:933" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1015:1254" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1368:1606" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1428:1565" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1643:1880" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1703:1839" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+          <folding>
+            <marker date="1543365017130" expanded="false" signature="6:66" ph="..." />
+            <marker date="1543365017130" expanded="true" signature="162:1883" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="372:543" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="571:1331" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="605:1264" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="692:933" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1015:1254" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1368:1606" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1428:1565" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1643:1880" ph="{...}" />
+            <marker date="1543365017130" expanded="true" signature="1703:1839" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CollisionScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1543365458820" expanded="false" signature="6:135" ph="..." />
+            <marker date="1543365458820" expanded="true" signature="181:462" ph="{...}" />
+            <marker date="1543365458820" expanded="true" signature="251:460" ph="{...}" />
+            <marker date="1543365458820" expanded="true" signature="275:457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CoinGeneration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <marker date="1543365593387" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543365593387" expanded="true" signature="123:916" ph="{...}" />
+            <marker date="1543365593387" expanded="true" signature="360:914" ph="{...}" />
+            <marker date="1543365593387" expanded="true" signature="390:911" ph="{...}" />
+            <marker date="1543365593387" expanded="true" signature="631:826" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/TimeCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1543366418342" expanded="true" signature="6:114" ph="..." />
+            <marker date="1543366418342" expanded="true" signature="156:538" ph="{...}" />
+            <marker date="1543366418342" expanded="true" signature="235:317" ph="{...}" />
+            <marker date="1543366418342" expanded="true" signature="341:536" ph="{...}" />
+            <marker date="1543366418342" expanded="true" signature="359:533" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

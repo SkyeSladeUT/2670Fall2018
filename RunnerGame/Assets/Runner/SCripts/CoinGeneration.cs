@@ -29,7 +29,7 @@ public class CoinGeneration : MonoBehaviour
 			RandX = Random.Range(-1, 2);
 			while (totalCoins <= CoinNum)
 			{
-				position.z += 2;
+				position.z += 4;
 				xPos = RandX * 3;
 				position.x = xPos;
 				totalCoins++;

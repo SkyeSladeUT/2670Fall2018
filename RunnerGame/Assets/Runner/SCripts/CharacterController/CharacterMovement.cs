@@ -48,7 +48,7 @@ public class CharacterMovement : MonoBehaviour
     {
         while (transform.position.x <= NewPosition.x)
         {
-            transform.Translate(Vector3.right*Time.deltaTime*10);
+            transform.Translate(Vector3.right*Time.deltaTime*15);
             yield return new WaitForFixedUpdate();
         }
 
@@ -59,7 +59,7 @@ public class CharacterMovement : MonoBehaviour
     {
         while (transform.position.x >= NewPosition.x)
         {
-            transform.Translate(Vector3.left*Time.deltaTime*10);
+            transform.Translate(Vector3.left*Time.deltaTime*15);
             yield return new WaitForFixedUpdate();
         }
 

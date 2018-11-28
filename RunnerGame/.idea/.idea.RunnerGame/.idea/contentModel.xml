@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Owner\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_RunnerGame.1772664300.00" t="ExcludeRecursive" />
+    <e p="E:\School\Fall2018\2670Fall2018\RunnerGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Runner" t="Include">
+          <e p="Move.cs" t="Include" />
+          <e p="ObstacleDestruction.cs" t="Include" />
+          <e p="SCripts" t="Include">
+            <e p="CameraScript.cs" t="Include" />
+            <e p="CharacterController" t="Include">
+              <e p="BoolInput.cs" t="Include" />
+              <e p="CharacterMovement.cs" t="Include" />
+              <e p="FloatBool.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="FloatInput.cs" t="Include" />
+              <e p="MovePattern.cs" t="Include" />
+              <e p="Sliding.cs" t="Include" />
+            </e>
+            <e p="CoinGeneration.cs" t="Include" />
+            <e p="CollisionScript.cs" t="Include" />
+            <e p="DestroyObject.cs" t="Include" />
+            <e p="IncreaseSpeed.cs" t="Include" />
+            <e p="InfiniteCounter.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="ObjectID.cs" t="Include" />
+            <e p="ObstacleGeneration.cs" t="Include" />
+            <e p="Runner.cs" t="Include" />
+            <e p="TimeCounter.cs" t="Include" />
+            <e p="Timer.cs" t="Include" />
+          </e>
+          <e p="TriggerEvent.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RunnerGame.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
