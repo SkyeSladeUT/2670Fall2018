@@ -5,8 +5,8 @@ using UnityEngine;
 public class Runner : ScriptableObject
 {
 
-	public int Score;
-	public int HighScore;
+	public float Score;
+	public float HighScore;
 	public int Coins;
 	public int CollectedCoins;
 

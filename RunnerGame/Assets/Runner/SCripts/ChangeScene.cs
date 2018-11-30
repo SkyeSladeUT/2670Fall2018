@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 [CreateAssetMenu]
 public class ChangeScene : ScriptableObject
 {
@@ -12,5 +15,6 @@ public class ChangeScene : ScriptableObject
 	{
 		SceneManager.LoadScene(SceneName);
 	}
+
 
 }

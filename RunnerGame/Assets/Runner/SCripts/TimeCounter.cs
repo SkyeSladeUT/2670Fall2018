@@ -8,12 +8,14 @@ public class TimeCounter : MonoBehaviour
 {
 
 	public Text ScoreCounter;
+	public Runner player;
 	private float TimeTotal;
 
 	private void Start()
 	{
 		ScoreCounter.text = "0.00";
 		TimeTotal = 0;
+		player.Score = 0;
 		StartCoroutine(Counter());
 	}
 
@@ -27,4 +29,10 @@ public class TimeCounter : MonoBehaviour
 			ScoreCounter.text = TimeTotal.ToString("F2");
 		}
 	}
+
+	public void EndGameScore()
+	{
+		player.Score = TimeTotal;
+	}
+
 }

@@ -7,10 +7,11 @@ public class OnEnterKeyEvent : MonoBehaviour
 {
 
 	public UnityEvent Event;
+	public KeyCode key;
 
 	private void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.Return))
+		if (Input.GetKeyDown(key))
 		{
 			Event.Invoke();
 		}
