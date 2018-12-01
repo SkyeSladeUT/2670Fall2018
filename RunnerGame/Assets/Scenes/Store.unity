@@ -960,7 +960,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ccc6053431e88e0448748641aed9decb, type: 3}
+  - {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1316,6 +1316,7 @@ GameObject:
   - component: {fileID: 1016011041}
   - component: {fileID: 1016011040}
   - component: {fileID: 1016011042}
+  - component: {fileID: 1016011043}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1392,6 +1393,34 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   key: 275
+--- !u!114 &1016011043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1016011039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48c44b5ded871d2449f3e75a328e283e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 4ed23c7ec1229e049a626357d5d4687c, type: 2}
+        m_MethodName: SceneChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  key: 13
 --- !u!1 &1016805540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1590,7 +1619,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ccc6053431e88e0448748641aed9decb, type: 3}
+  - {fileID: 2100000, guid: 1c17dfb0abf06c14e8a5fe1139a9d032, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1666,7 +1695,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ccc6053431e88e0448748641aed9decb, type: 3}
+  - {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1742,7 +1771,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ccc6053431e88e0448748641aed9decb, type: 3}
+  - {fileID: 2100000, guid: 1c17dfb0abf06c14e8a5fe1139a9d032, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1963,7 +1992,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ccc6053431e88e0448748641aed9decb, type: 3}
+  - {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2548,7 +2577,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: ccc6053431e88e0448748641aed9decb, type: 3}
+  - {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

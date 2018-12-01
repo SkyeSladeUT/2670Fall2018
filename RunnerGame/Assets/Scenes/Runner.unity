@@ -2245,6 +2245,36 @@ Prefab:
       propertyPath: GameOver.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Counter
       objectReference: {fileID: 0}
+    - target: {fileID: 23681343548483548, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
+    - target: {fileID: 23442885624474342, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
+    - target: {fileID: 23460266613604490, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
+    - target: {fileID: 23359068689348246, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
+    - target: {fileID: 23558656716917378, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
+    - target: {fileID: 23785337804355094, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed3648e4368bd0049bea6c71bb1882a0, type: 2}
   m_IsPrefabParent: 0
