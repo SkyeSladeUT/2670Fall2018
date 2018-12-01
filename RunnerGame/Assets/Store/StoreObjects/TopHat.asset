@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddccadcca94a2604093eb0f19cc420b3, type: 3}
-  m_Name: Afro
+  m_Name: TopHat
   m_EditorClassIdentifier: 
-  Object: {fileID: 1893124555799298, guid: 0f4604dd5fb4c964fa18846bc55332da, type: 2}
-  Name: Afro
+  Object: {fileID: 1846808930996026, guid: 5f2010ab1f56db94ba217c1ed0655e13, type: 2}
+  Name: TopHat
   Cost: 300
   isBought: 0

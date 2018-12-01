@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ddccadcca94a2604093eb0f19cc420b3, type: 3}
-  m_Name: Afro
+  m_Name: Flower
   m_EditorClassIdentifier: 
-  Object: {fileID: 1893124555799298, guid: 0f4604dd5fb4c964fa18846bc55332da, type: 2}
-  Name: Afro
+  Object: {fileID: 1640990889059966, guid: 504aa06708e2a6e4d9bcc85053b85ffa, type: 2}
+  Name: Flower
   Cost: 300
   isBought: 0
