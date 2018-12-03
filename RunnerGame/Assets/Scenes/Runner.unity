@@ -573,6 +573,79 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &281178007 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1064354150762692, guid: ed3648e4368bd0049bea6c71bb1882a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1652357249}
+--- !u!95 &281178009 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95995856717278728, guid: ed3648e4368bd0049bea6c71bb1882a0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1652357249}
+--- !u!114 &281178011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281178007}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3389c720a83ae44cacd96623f64d0a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 11400000, guid: 387e3bc6e72eea244ae3c19b75f14795, type: 2}
+  GameOver:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 421725667}
+        m_MethodName: StopCoroutine
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Counter
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 421725667}
+        m_MethodName: EndGameScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: b6c75b8b221e215409bef71fc7e7da98, type: 2}
+        m_MethodName: SceneChange
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &281178012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 281178007}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbb61454fe67d04f96cb017e352b109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PenguinAnim: {fileID: 281178009}
+  seconds: 0
 --- !u!1001 &345342145
 Prefab:
   m_ObjectHideFlags: 0
@@ -2275,6 +2348,35 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a27f94ff350e0a44aa0191d954d88e1c, type: 2}
+    - target: {fileID: 1088945563699282, guid: ed3648e4368bd0049bea6c71bb1882a0, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23066273580505074, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23066273580505074, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54819120396241250, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54819120396241250, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114228443531772592, guid: ed3648e4368bd0049bea6c71bb1882a0,
+        type: 2}
+      propertyPath: seconds
+      value: 1.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed3648e4368bd0049bea6c71bb1882a0, type: 2}
   m_IsPrefabParent: 0
