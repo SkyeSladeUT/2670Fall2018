@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fac43da-4944-4de4-85ae-0d372ce99e45" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/MenuScripts/StartGame.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/MenuScripts/Store.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/MenuScripts/Store.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RunnerGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RunnerGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runner/Runner.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/MenuScripts/StartGame.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Runner/SCripts/GameScripts/ObstacleGeneration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Runner/SCripts/GameScripts/ObstacleGeneration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Runner.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Runner.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Store.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Store.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sliding.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sliding.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -46,6 +39,42 @@
                 <marker date="1543868982674" expanded="true" signature="478:606" ph="{...}" />
                 <marker date="1543868982674" expanded="true" signature="649:695" ph="{...}" />
                 <marker date="1543868982674" expanded="true" signature="724:793" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/Test.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <marker date="1544043051852" expanded="false" signature="6:78" ph="..." />
+                <marker date="1544043051852" expanded="true" signature="113:120" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObstacleGeneration.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/GameScripts/ObstacleGeneration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+              <folding>
+                <marker date="1544045295206" expanded="false" signature="6:125" ph="..." />
+                <marker date="1544045295206" expanded="true" signature="174:4838" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="340:455" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="489:4836" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="507:4833" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="840:4681" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="871:927" ph="/* Can slide under or over ... */" />
+                <marker date="1544045295206" expanded="true" signature="1326:2006" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="2178:2225" ph="/* Only Jump over ... */" />
+                <marker date="1544045295206" expanded="true" signature="2710:3390" ph="{...}" />
+                <marker date="1544045295206" expanded="true" signature="3429:3474" ph="/* must slide under ... */" />
+                <marker date="1544045295206" expanded="true" signature="3959:4639" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -85,6 +114,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/GameScripts/ObstacleGeneration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/OnEnterKeyEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Runner/SCripts/Runner.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,10 +143,12 @@
         <option value="$PROJECT_DIR$/Assets/Store/AccessoryStore.cs" />
         <option value="$PROJECT_DIR$/Assets/AccessorySetUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/Sliding.cs" />
+        <option value="$PROJECT_DIR$/Assets/Runner/SCripts/Test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Runner/SCripts/GameScripts/ObstacleGeneration.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1409" />
     <option name="height" value="1038" />
   </component>
@@ -126,6 +159,10 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -137,10 +174,6 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -185,11 +218,12 @@
       <workItem from="1543612953138" duration="1520000" />
       <workItem from="1543614489194" duration="2478000" />
       <workItem from="1543868196740" duration="1091000" />
+      <workItem from="1544043010232" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15665000" />
+    <option name="totallyTimeSpent" value="17181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,7 +235,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1409" height="1038" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -210,7 +244,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.102298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07462686" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -232,26 +266,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/CharacterController/CharacterMovement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/OnEnterKeyEvent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <marker date="1543856475872" expanded="false" signature="6:104" ph="..." />
-            <marker date="1543856475872" expanded="true" signature="150:288" ph="{...}" />
-            <marker date="1543856475872" expanded="true" signature="224:286" ph="{...}" />
-            <marker date="1543856475872" expanded="true" signature="256:283" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/Runner.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -425,6 +439,38 @@
             <marker date="1543868982674" expanded="true" signature="478:606" ph="{...}" />
             <marker date="1543868982674" expanded="true" signature="649:695" ph="{...}" />
             <marker date="1543868982674" expanded="true" signature="724:793" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1544043051852" expanded="false" signature="6:78" ph="..." />
+            <marker date="1544043051852" expanded="true" signature="113:120" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Runner/SCripts/GameScripts/ObstacleGeneration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="167" column="42" selection-start-line="167" selection-start-column="42" selection-end-line="167" selection-end-column="42" />
+          <folding>
+            <marker date="1544045295206" expanded="false" signature="6:125" ph="..." />
+            <marker date="1544045295206" expanded="true" signature="174:4838" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="340:455" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="489:4836" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="507:4833" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="840:4681" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="871:927" ph="/* Can slide under or over ... */" />
+            <marker date="1544045295206" expanded="true" signature="1326:2006" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="2178:2225" ph="/* Only Jump over ... */" />
+            <marker date="1544045295206" expanded="true" signature="2710:3390" ph="{...}" />
+            <marker date="1544045295206" expanded="true" signature="3429:3474" ph="/* must slide under ... */" />
+            <marker date="1544045295206" expanded="true" signature="3959:4639" ph="{...}" />
           </folding>
         </state>
       </provider>

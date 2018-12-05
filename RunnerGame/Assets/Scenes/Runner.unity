@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6112ebe8964c5c144b68ed198c539183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 7
+  seconds: 5
   Offset: {fileID: 11400000, guid: bdd5352ddf3503e48a91549fdce21bf2, type: 2}
   Speed: {fileID: 11400000, guid: 0f5bc986a099bfa46996faf66d0328d7, type: 2}
 --- !u!114 &421725664

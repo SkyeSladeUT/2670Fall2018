@@ -39,6 +39,7 @@
             <e p="ObjectID.cs" t="Include" />
             <e p="OnEnterKeyEvent.cs" t="Include" />
             <e p="Runner.cs" t="Include" />
+            <e p="Test.cs" t="Include" />
             <e p="TriggerEvent.cs" t="Include" />
           </e>
         </e>

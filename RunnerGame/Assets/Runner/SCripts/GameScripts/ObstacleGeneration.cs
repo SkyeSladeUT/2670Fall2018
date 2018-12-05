@@ -139,7 +139,7 @@ public class ObstacleGeneration : MonoBehaviour
 				case "SmallHole":
 					//across 1/3rd of screen
 					RandomX = Random.Range(0, 3);
-					position.x = (RandomX-1)*3f;
+					position.x = (RandomX-1)*3.1f;
 					break;
 				case "SmallHoleEnclosed":
 					RandomX = Random.Range(0, 3);
