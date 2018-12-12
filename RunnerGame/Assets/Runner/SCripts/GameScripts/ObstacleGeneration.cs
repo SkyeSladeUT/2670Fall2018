@@ -54,7 +54,7 @@ public class ObstacleGeneration : MonoBehaviour
 							Instantiate(Wall, position, Wall.transform.rotation);
 							position.x = 3f;
 							Instantiate(Wall, position, Wall.transform.rotation);
-							position.x = -3f;
+							position.x = -3.1f;
 							break;
 						case 1:
 							position.x = -3f;
@@ -68,7 +68,7 @@ public class ObstacleGeneration : MonoBehaviour
 							Instantiate(Wall, position, Wall.transform.rotation);
 							position.x = 0;
 							Instantiate(Wall, position, Wall.transform.rotation);
-							position.x = 3f;
+							position.x = 3.1f;
 							break;
 					}
 					break;
@@ -105,7 +105,7 @@ public class ObstacleGeneration : MonoBehaviour
 							Instantiate(Wall, position, Wall.transform.rotation);
 							position.x = 3f;
 							Instantiate(Wall, position, Wall.transform.rotation);
-							position.x = -3f;
+							position.x = -3.1f;
 							break;
 						case 1:
 							position.x = -3f;
@@ -119,7 +119,7 @@ public class ObstacleGeneration : MonoBehaviour
 							Instantiate(Wall, position, Wall.transform.rotation);
 							position.x = 0;
 							Instantiate(Wall, position, Wall.transform.rotation);
-							position.x = 3f;
+							position.x = 3.1f;
 							break;
 					}
 					break;
@@ -151,7 +151,7 @@ public class ObstacleGeneration : MonoBehaviour
 							Instantiate(Wall, position, Wall.transform.rotation);
 							position.x = 3f;
 							Instantiate(Wall, position, Wall.transform.rotation);
-							position.x = -3f;
+							position.x = -3.1f;
 							break;
 						case 1:
 							position.x = -3f;
@@ -165,7 +165,7 @@ public class ObstacleGeneration : MonoBehaviour
 							Instantiate(Wall, position, Wall.transform.rotation);
 							position.x = 0;
 							Instantiate(Wall, position, Wall.transform.rotation);
-							position.x = 3f;
+							position.x = 3.1f;
 							break;
 					}
 					break;

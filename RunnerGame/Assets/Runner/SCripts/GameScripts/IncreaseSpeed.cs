@@ -17,7 +17,7 @@ public class IncreaseSpeed : MonoBehaviour
 			if (Speed.Value < 100)
 			{
 				Speed.value++;
-				Offset.value += .5f;
+				Offset.value ++;
 			}
 		}
 	}
