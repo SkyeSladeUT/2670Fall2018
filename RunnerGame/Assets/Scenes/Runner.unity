@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6112ebe8964c5c144b68ed198c539183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seconds: 5
+  seconds: 3
   Offset: {fileID: 11400000, guid: bdd5352ddf3503e48a91549fdce21bf2, type: 2}
   Speed: {fileID: 11400000, guid: 0f5bc986a099bfa46996faf66d0328d7, type: 2}
 --- !u!114 &421725664
@@ -2375,7 +2375,15 @@ Prefab:
     - target: {fileID: 114228443531772592, guid: ed3648e4368bd0049bea6c71bb1882a0,
         type: 2}
       propertyPath: seconds
-      value: 1.1
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407980844049216, guid: ed3648e4368bd0049bea6c71bb1882a0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.6888181
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407980844049216, guid: ed3648e4368bd0049bea6c71bb1882a0, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.8613207
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ed3648e4368bd0049bea6c71bb1882a0, type: 2}
