@@ -1317,6 +1317,7 @@ GameObject:
   - component: {fileID: 1016011040}
   - component: {fileID: 1016011042}
   - component: {fileID: 1016011043}
+  - component: {fileID: 1016011044}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1337,7 +1338,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BuyButton: {fileID: 908281009}
   EquipButton: {fileID: 106873416}
-  Penguin: {fileID: 1016805540}
   Accesories: {fileID: 11400000, guid: 904be358c984f1c47b38416151dce8e9, type: 2}
   Objects:
   - {fileID: 408432311}
@@ -1421,6 +1421,33 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   key: 13
+--- !u!114 &1016011044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1016011039}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5054b74b0b3b6904fa1062f5e60149e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BuyButton: {fileID: 908281009}
+  EquipButton: {fileID: 106873416}
+  Hats:
+  - {fileID: 408432311}
+  - {fileID: 202676808}
+  - {fileID: 1516211537}
+  - {fileID: 2098044841}
+  - {fileID: 1301041793}
+  - {fileID: 1792514387}
+  ActiveColor: {fileID: 11400000, guid: 59d82a9b9eafbf342bf316f631959cab, type: 2}
+  colors: {fileID: 11400000, guid: 904be358c984f1c47b38416151dce8e9, type: 2}
+  Available: {fileID: 11400000, guid: cb99745d4764bcc49a3e06244472e806, type: 2}
+  Purchased: {fileID: 11400000, guid: d41546678e3c73c449c672590d6504d3, type: 2}
+  AvailableCash: {fileID: 961764038}
+  Cost: {fileID: 361814817}
+  player: {fileID: 11400000, guid: 387e3bc6e72eea244ae3c19b75f14795, type: 2}
 --- !u!1 &1016805540
 GameObject:
   m_ObjectHideFlags: 0

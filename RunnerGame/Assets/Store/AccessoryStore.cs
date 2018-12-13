@@ -7,7 +7,6 @@ public class AccessoryStore : MonoBehaviour {
 
 	public GameObject BuyButton;
 	public GameObject EquipButton;
-	public GameObject Penguin;
 	public Objects Accesories;
 	public List<GameObject> Objects;
 	public Objects Purchased;
@@ -17,6 +16,7 @@ public class AccessoryStore : MonoBehaviour {
 	public Runner player;
 	public Accessory CurrentAccesory;
 	private int CurrentIndex;
+	//public StoreObject store;
 
 	private void Start()
 	{
@@ -61,20 +61,20 @@ public class AccessoryStore : MonoBehaviour {
 
 	public void BuyObject()
 	{
-		var accessory = Accesories.ObjectList[CurrentIndex];
+		Accessory accessory = Accesories.ObjectList[CurrentIndex];
 		Bought(accessory);
 	}
 
 	private void Bought(Accessory accessory)
 	{
-		if (accessory.Cost < player.Coins)
+		if (Accesories.ObjectList[CurrentIndex].Cost <= player.Coins)
 		{
-			Purchased.ObjectList.Add(accessory);
+			Purchased.ObjectList.Add(Accesories.ObjectList[CurrentIndex]);
 			Available.ObjectList.Remove(Accesories.ObjectList[CurrentIndex]);
 			BuyButton.SetActive(false);
 			EquipButton.SetActive(true);
 			Accesories.ObjectList[CurrentIndex].isBought = true;
-			player.Coins -= accessory.Cost;
+			player.Coins -= Accesories.ObjectList[CurrentIndex].Cost;
 			Cost.text = "";
 			AvailableCash.text = "$" + player.Coins;
 		}
@@ -83,6 +83,8 @@ public class AccessoryStore : MonoBehaviour {
 	public void Equip()
 	{
 		CurrentAccesory.Object = Accesories.ObjectList[CurrentIndex].Object;
+		//store.CurrentAccesory = store.Accesories.ObjectList[CurrentIndex];
 		EquipButton.SetActive(false);
 	}
+
 }

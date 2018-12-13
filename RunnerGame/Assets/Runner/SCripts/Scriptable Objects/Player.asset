@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f391aea13bbf0d641a04b5859553a69f, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  Score: 4.05
+  Score: 12.84
   HighScore: 122.41
-  Coins: 300
-  CollectedCoins: 10
+  Coins: 58
+  CollectedCoins: 12
